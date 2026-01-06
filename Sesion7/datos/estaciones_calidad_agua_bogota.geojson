@@ -1,0 +1,1062 @@
+{
+  "type": "FeatureCollection",
+  "name": "C:\\Users\\ADMIN\\Desktop\\SDA\\IDECA ENTREGAS INFORMACION\\Formatos Datos Abiertos\\Estaciones calidad del agua\\FormatoGJSON\\Estacion_calida_agua.geojson",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "QCH - E1",
+        "coordx": "9.66336766240e+04",
+        "coordy": "8.88896335680e+04",
+        "nombre": "LA ORQUIDEA",
+        "rio": "QUEBRADA CHUNIZA",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.107872, 4.495797]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "QCH - E2",
+        "coordx": "9.51804822750e+04",
+        "coordy": "8.90653519540e+04",
+        "nombre": "CANTARRANA",
+        "rio": "QUEBRADA CHUNIZA",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.120961, 4.497386]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "QYO - E1",
+        "coordx": "9.76988106680e+04",
+        "coordy": "8.92917151190e+04",
+        "nombre": "ARRAYANAL",
+        "rio": "QUEBRADA YOMASA",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.098278, 4.499431]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "QYO - E2",
+        "coordx": "9.64991680020e+04",
+        "coordy": "9.00383684710e+04",
+        "nombre": "BOLONIA",
+        "rio": "QUEBRADA YOMASA",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.109083, 4.506181]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "QYO - E3",
+        "coordx": "9.48023136190e+04",
+        "coordy": "8.98215795990e+04",
+        "nombre": "MONTE BLANCO",
+        "rio": "QUEBRADA YOMASA",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.124367, 4.504222]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "QSL - E1",
+        "coordx": "9.67041912630e+04",
+        "coordy": "9.06765821010e+04",
+        "nombre": "ALFONSO LOPEZ",
+        "rio": "QUEBRADA SANTA LIBRADA",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.107236, 4.51195]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "QSL - E2",
+        "coordx": "9.57138385930e+04",
+        "coordy": "9.17238308750e+04",
+        "nombre": "BARRANQUILLITA",
+        "rio": "QUEBRADA SANTA LIBRADA",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.116156, 4.521417]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "QSL - E3",
+        "coordx": "9.48783679750e+04",
+        "coordy": "9.32165887410e+04",
+        "nombre": "PORTAL USME",
+        "rio": "QUEBRADA SANTA LIBRADA",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.123681, 4.534911]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "QTR - E1",
+        "coordx": "9.29476601330e+04",
+        "coordy": "9.31422088570e+04",
+        "nombre": "MOCHUELO BAJO",
+        "rio": "QUEBRADA TROMPETA",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.141072, 4.534239]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "QTR - E2",
+        "coordx": "9.31197353670e+04",
+        "coordy": "9.33803885550e+04",
+        "nombre": "QUIBA",
+        "rio": "QUEBRADA TROMPETA",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.139522, 4.536392]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "QTR - E3",
+        "coordx": "9.36973517700e+04",
+        "coordy": "9.38163742700e+04",
+        "nombre": "ACAPULCO",
+        "rio": "QUEBRADA TROMPETA",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.134319, 4.540333]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "QZA - E1",
+        "coordx": "9.90060663990e+04",
+        "coordy": "9.38169797590e+04",
+        "nombre": "QUINDIO",
+        "rio": "QUEBRADA CHIGUAZA",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.0865, 4.540336]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "QZA - E2",
+        "coordx": "9.74005941550e+04",
+        "coordy": "9.47298566950e+04",
+        "nombre": "ENTRE NUBES",
+        "rio": "QUEBRADA CHIGUAZA",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.100961, 4.548589]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "QZA - E3",
+        "coordx": "9.60748365510e+04",
+        "coordy": "9.49332233360e+04",
+        "nombre": "MOLINOS",
+        "rio": "QUEBRADA CHIGUAZA",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.112903, 4.550428]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "QZA - E4",
+        "coordx": "9.38779344340e+04",
+        "coordy": "9.59856463090e+04",
+        "nombre": "MEISSEN",
+        "rio": "QUEBRADA CHIGUAZA",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.132692, 4.559942]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "QLI - E1",
+        "coordx": "9.10227430370e+04",
+        "coordy": "9.43775799940e+04",
+        "nombre": "BELLA FLOR",
+        "rio": "QUEBRADA LIMAS",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.158411, 4.545406]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "QLI - E2",
+        "coordx": "9.16432207340e+04",
+        "coordy": "9.54057316910e+04",
+        "nombre": "VILLA DEL DIAMANTE",
+        "rio": "QUEBRADA LIMAS",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.152822, 4.5547]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "QLI - E3",
+        "coordx": "9.19296410810e+04",
+        "coordy": "9.59102956620e+04",
+        "nombre": "SAN FRANCISCO",
+        "rio": "QUEBRADA LIMAS",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.150242, 4.559261]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "QLI - E4",
+        "coordx": "9.21905258770e+04",
+        "coordy": "9.70264022250e+04",
+        "nombre": "EL SATELITE",
+        "rio": "QUEBRADA LIMAS",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.147892, 4.56935]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "CMO - E3",
+        "coordx": "1.02593658058e+05",
+        "coordy": "1.11132246500e+05",
+        "nombre": "PEPE SIERRA",
+        "rio": "CANAL MOLINOS",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.054164, 4.696853]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "CMO - E4",
+        "coordx": "1.01673298676e+05",
+        "coordy": "1.11210785998e+05",
+        "nombre": "ALHAMBRA",
+        "rio": "CANAL MOLINOS",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.062456, 4.697564]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "CON - E1",
+        "coordx": "1.04612870549e+05",
+        "coordy": "1.13003337696e+05",
+        "nombre": "BELLA SUIZA",
+        "rio": "CANAL CONTADOR",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.035969, 4.713764]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "CON - E2",
+        "coordx": "1.03530886796e+05",
+        "coordy": "1.13382069402e+05",
+        "nombre": "COUNTRY",
+        "rio": "CANAL CONTADOR",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.045717, 4.717189]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "CON - E3",
+        "coordx": "1.03198759587e+05",
+        "coordy": "1.12136814170e+05",
+        "nombre": "CALLEJAS",
+        "rio": "CANAL CONTADOR",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.048711, 4.705933]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "CON - E4",
+        "coordx": "1.01937432318e+05",
+        "coordy": "1.12335775670e+05",
+        "nombre": "CAMINO DEL CONTADOR",
+        "rio": "CANAL CONTADOR",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.060075, 4.707733]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "COR - E1",
+        "coordx": "1.02703279791e+05",
+        "coordy": "1.17207186790e+05",
+        "nombre": "BRITALIA",
+        "rio": "CANAL CORDOBA",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.053169, 4.751767]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "COR - E2",
+        "coordx": "1.02345684202e+05",
+        "coordy": "1.14692828328e+05",
+        "nombre": "VICTORIA NORTE",
+        "rio": "CANAL CORDOBA",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.056394, 4.729039]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "COR - E3",
+        "coordx": "1.01737859161e+05",
+        "coordy": "1.13345878942e+05",
+        "nombre": "PRADO VERANIEGO",
+        "rio": "CANAL CORDOBA",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.061872, 4.716864]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "COR - E4",
+        "coordx": "1.00779533661e+05",
+        "coordy": "1.11708833698e+05",
+        "nombre": "HUMEDAL CORDOBA",
+        "rio": "CANAL CORDOBA",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.070508, 4.702067]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "CRN - E1",
+        "coordx": "1.03556409979e+05",
+        "coordy": "1.08030531847e+05",
+        "nombre": "QUEBRADA CHICO",
+        "rio": "RIO NEGRO",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.045494, 4.668814]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "CRN - E2",
+        "coordx": "1.02182073517e+05",
+        "coordy": "1.08691890611e+05",
+        "nombre": "EL VIRREY",
+        "rio": "RIO NEGRO",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.057875, 4.674794]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "CRN - E3",
+        "coordx": "1.01789546538e+05",
+        "coordy": "1.09064320336e+05",
+        "nombre": "LA CASTELLANA",
+        "rio": "RIO NEGRO",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.061411, 4.678161]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "CRN - E4",
+        "coordx": "1.00728258676e+05",
+        "coordy": "1.09623524757e+05",
+        "nombre": "ENTRE RIOS",
+        "rio": "RIO NEGRO",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.070972, 4.683217]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "HCO - E2",
+        "coordx": "9.88935285550e+04",
+        "coordy": "1.12114539600e+05",
+        "nombre": "LOS LAGARTOS",
+        "rio": "HUMEDAL CORDOBA",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.0875, 4.705736]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "CMO - E2",
+        "coordx": "1.04101067030e+05",
+        "coordy": "1.10758456984e+05",
+        "nombre": "SANTA  ANA",
+        "rio": "CANAL MOLINOS",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.040583333, 4.69347222200003]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "CMO - E1",
+        "coordx": "1.05158752296e+05",
+        "coordy": "1.09738404670e+05",
+        "nombre": "CANTON NORTE",
+        "rio": "CANAL MOLINOS",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.031055556, 4.68425]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "FU-ELDELI",
+        "coordx": "1.01916999775e+05",
+        "coordy": "9.55410004330e+04",
+        "nombre": "EL DELIRIO",
+        "rio": "FUCHA",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.0602775, 4.55591745800007]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "FU-KR7",
+        "coordx": "9.87417612640e+04",
+        "coordy": "9.79602950420e+04",
+        "nombre": "CARRERA 7",
+        "rio": "FUCHA",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.088877778, 4.57778950000005]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "FU-AVFERR",
+        "coordx": "9.50186617500e+04",
+        "coordy": "1.01791431113e+05",
+        "nombre": "AV FERROCARRIL",
+        "rio": "FUCHA",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.122414694, 4.61242283300004]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "FU-AVAMER",
+        "coordx": "9.46224966520e+04",
+        "coordy": "1.03741905449e+05",
+        "nombre": "AV LAS AMÉRICAS",
+        "rio": "FUCHA",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.1259830559999, 4.63005416700003]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "FU-AVBOY",
+        "coordx": "9.44075326010e+04",
+        "coordy": "1.05635638253e+05",
+        "nombre": "Av BOYACÁ",
+        "rio": "FUCHA",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.127919167, 4.64717252800006]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "FU-VC",
+        "coordx": "9.37551789860e+04",
+        "coordy": "1.06235543237e+05",
+        "nombre": "VISIÓN COLOMBIA",
+        "rio": "FUCHA",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.133796111, 4.65259547200003]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "FU-ZFRANCA",
+        "coordx": "9.25486427240e+04",
+        "coordy": "1.07250888354e+05",
+        "nombre": "ZONA FRANCA",
+        "rio": "FUCHA",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.144665833, 4.66177375000007]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "FU-ALAMEDA",
+        "coordx": "9.15826847980e+04",
+        "coordy": "1.07511846546e+05",
+        "nombre": "FUCHA ALAMEDA",
+        "rio": "FUCHA",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.153368333, 4.66413263900006]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "RIO- PUEN",
+        "coordx": "1.05372412649e+05",
+        "coordy": "1.29633943121e+05",
+        "nombre": "PUENTE EL COMÚN",
+        "rio": "RIO BOGOTA",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.0291, 4.86409444400005]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "SA-PNAC",
+        "coordx": "1.02403252782e+05",
+        "coordy": "1.03011313939e+05",
+        "nombre": "PARQUE NACIONAL",
+        "rio": "SALITRE",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.055888889, 4.62344444400003]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "SA-ARZKR7",
+        "coordx": "1.01278997215e+05",
+        "coordy": "1.03288356836e+05",
+        "nombre": "ARZOBISPO  KR 7",
+        "rio": "SALITRE",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.066016667, 4.62595]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "SA-NQSCL53",
+        "coordx": "9.99488378010e+04",
+        "coordy": "1.04704522202e+05",
+        "nombre": "NQS CALLE 53",
+        "rio": "SALITRE",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.077998458, 4.63875263600005]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "SA-AV68",
+        "coordx": "9.96962275940e+04",
+        "coordy": "1.10303734547e+05",
+        "nombre": "CARREFOUR  AV 68",
+        "rio": "SALITRE",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.080269444, 4.68936666700006]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "SA-TV 91",
+        "coordx": "9.80314115910e+04",
+        "coordy": "1.13283741322e+05",
+        "nombre": "TRANSVERSAL 91",
+        "rio": "SALITRE",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.095266667, 4.71630555600007]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "SA-ALAMEDA",
+        "coordx": "9.47542750880e+04",
+        "coordy": "1.15916637754e+05",
+        "nombre": "SALITRE CON ALAMEDA",
+        "rio": "SALITRE",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.1247924859999, 4.74010703900007]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "TR-BPINOS",
+        "coordx": "1.06225399920e+05",
+        "coordy": "1.14079489759e+05",
+        "nombre": "BOSQUE DE PINOS",
+        "rio": "TORCA",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.021438636, 4.72348937800007]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "TR-CL161",
+        "coordx": "1.04469633942e+05",
+        "coordy": "1.15900454689e+05",
+        "nombre": "CALLE 161",
+        "rio": "TORCA",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.037255433, 4.73995255300002]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "TR-JARPAZ",
+        "coordx": "1.04014488970e+05",
+        "coordy": "1.20201999772e+05",
+        "nombre": "JARDINES DE PAZ",
+        "rio": "TORCA",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.041350461, 4.77883679200005]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "TR-SANSIM",
+        "coordx": "1.04142219942e+05",
+        "coordy": "1.23621654472e+05",
+        "nombre": "SAN SIMÓN",
+        "rio": "TORCA",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.040194736, 4.80974842200004]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "TU-LAREG",
+        "coordx": "9.25963651740e+04",
+        "coordy": "7.89469694900e+04",
+        "nombre": "LA REGADERA",
+        "rio": "TUNJUELO",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.144236722, 4.40592183300004]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "TU-UAN",
+        "coordx": "9.51001829840e+04",
+        "coordy": "8.74821164070e+04",
+        "nombre": "UNIVERSIDAD ANTONIO NARIÑO",
+        "rio": "TUNJUELO",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.12168475, 4.48307444400007]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "TU-YOMASA",
+        "coordx": "9.44995097620e+04",
+        "coordy": "8.96934900730e+04",
+        "nombre": "YOMASA",
+        "rio": "TUNJUELO",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.127094444, 4.50306422200004]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "TU-DJUANA",
+        "coordx": "9.45413929570e+04",
+        "coordy": "9.21803922550e+04",
+        "nombre": "DOÑA JUANA",
+        "rio": "TUNJUELO",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.126716583, 4.52554444400005]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "TU-BMEX",
+        "coordx": "9.37194664230e+04",
+        "coordy": "9.59181214170e+04",
+        "nombre": "BARRIO MÉXICO",
+        "rio": "TUNJUELO",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.134119472, 4.55933163900005]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "TU-SANBEN",
+        "coordx": "9.32670821020e+04",
+        "coordy": "9.63991265230e+04",
+        "nombre": "SAN BENITO",
+        "rio": "TUNJUELO",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.138194444, 4.56367972200007]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "TU-MAKRO",
+        "coordx": "9.17086105180e+04",
+        "coordy": "1.00389440338e+05",
+        "nombre": "MAKRO AUTOPISTA SUR",
+        "rio": "TUNJUELO",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.152233333, 4.59975]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "TU-TV 86",
+        "coordx": "8.86410950470e+04",
+        "coordy": "1.01790648887e+05",
+        "nombre": "TRANSVERSAL  86",
+        "rio": "TUNJUELO",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.179867278, 4.61241538900003]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "TU-CAI AS",
+        "coordx": "8.78003004810e+04",
+        "coordy": "1.01897158673e+05",
+        "nombre": "CAI ANTONIA SANTOS",
+        "rio": "TUNJUELO",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.187441667, 4.61337777800003]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "TU-ISLA",
+        "coordx": "8.44874610470e+04",
+        "coordy": "1.02199800046e+05",
+        "nombre": "ISLA PONTÓN SAN JOSÉ",
+        "rio": "TUNJUELO",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.217285833, 4.61611111100007]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "estacion": "TU-CIERRE",
+        "coordx": "8.30411777800e+04",
+        "coordy": "1.03953691265e+05",
+        "nombre": "EL CIERRE",
+        "rio": "RIO BOGOTA",
+        "fechacreac": "15/10/2016",
+        "fechaactua": "29/12/2017"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.230316667, 4.63196388900008]
+      }
+    }
+  ]
+}

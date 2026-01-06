@@ -1,0 +1,3 @@
+Estacion,Precipitacion_mm,Pendiente_pct,Uso_suelo,ID_Estacion,Riesgo_Ambiental,Riesgo_Cod
+C,22,25,Agricola,3,ALTO,3
+D,30,40,Urbano,4,ALTO,3

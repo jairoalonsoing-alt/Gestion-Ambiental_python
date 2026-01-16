@@ -1,4 +1,41 @@
-# Gestion-Ambiental_python
-Repositorio de proyectos y ejercicios de Python orientados a la ingeniería ambiental, análisis de datos y automatización de procesos GIS.
+# Gestión Ambiental con Python
 
-Incluye desarrollos para el manejo de información ambiental, procesamiento de datos geoespaciales, generación de mapas, apoyo a la planificación ambiental y optimización de flujos de trabajo técnicos.
+Repositorio de proyectos y ejercicios desarrollados en **Python** orientados a la **ingeniería ambiental**, el **análisis de datos ambientales** y la **automatización de procesos GIS**.
+
+Este repositorio integra herramientas de análisis espacial, modelación ambiental y visualización de información, aplicadas a la gestión del territorio, evaluación de riesgos y apoyo a la toma de decisiones ambientales.
+
+---
+
+## 📁 Estructura del repositorio
+## 🌍 Proyectos destacados
+
+### 🔹 Análisis y zonificación ambiental de cuencas hidrográficas
+- Delimitación de zonas de **conservación, recuperación y uso controlado**
+- Evaluación de **riesgo hídrico**
+- Análisis de **exposición urbana**
+- Integración de datos oficiales (POMCAS) y OpenStreetMap
+- Exportación automática de **shapefiles, CSV y mapas finales**
+
+📂 Carpeta: `05_Análisis_Cuenca`
+
+---
+
+## 🛠️ Tecnologías y librerías utilizadas
+
+- Python
+- GeoPandas
+- OSMnx
+- Shapely
+- Pandas
+- Matplotlib
+- Contextily
+- QGIS / ArcGIS (integración de resultados)
+
+---
+
+## 👨‍💻 Autor
+
+**Jairo Alonso Porras Bernal**  
+Ingeniero Ambiental  
+
+Este repositorio hace parte de mi proceso de fortalecimiento profesional en análisis ambiental, SIG y automatización aplicada a la gestión ambiental del territorio.

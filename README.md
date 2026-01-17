@@ -6,21 +6,26 @@ Este repositorio integra herramientas de análisis espacial, modelación ambient
 
 ---
 
-## 📁 Estructura del repositorio
-## 🌍 Proyectos destacados
+## Estructura del repositorio
+## Proyectos destacados
 
-### 🔹 Análisis y zonificación ambiental de cuencas hidrográficas
+### Análisis y zonificación ambiental de cuencas hidrográficas
 - Delimitación de zonas de **conservación, recuperación y uso controlado**
 - Evaluación de **riesgo hídrico**
 - Análisis de **exposición urbana**
 - Integración de datos oficiales (POMCAS) y OpenStreetMap
 - Exportación automática de **shapefiles, CSV y mapas finales**
 
-📂 Carpeta: `05_Análisis_Cuenca`
+📂 Carpetas: 
+- `01_Analisis_Satos_Ambientales`
+- `05_Procesamiento_Geoespacial`
+- `05_Automatizacion_GIS`
+- `05_Modelado_Ambiental`
+- `05_Análisis_Cuenca`
 
 ---
 
-## 🛠️ Tecnologías y librerías utilizadas
+## Tecnologías y librerías utilizadas
 
 - Python
 - GeoPandas
@@ -33,7 +38,7 @@ Este repositorio integra herramientas de análisis espacial, modelación ambient
 
 ---
 
-## 👨‍💻 Autor
+## Autor
 
 **Jairo Alonso Porras Bernal**  
 Ingeniero Ambiental  

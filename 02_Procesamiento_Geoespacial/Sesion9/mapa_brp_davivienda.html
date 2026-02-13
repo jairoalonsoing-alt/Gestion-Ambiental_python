@@ -1,0 +1,3434 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8de0722eeee0d19fc8031882ab8dc45a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_8de0722eeee0d19fc8031882ab8dc45a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_8de0722eeee0d19fc8031882ab8dc45a = L.map(
+                "map_8de0722eeee0d19fc8031882ab8dc45a",
+                {
+                    center: [4.5, -74.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c070b3dff9ace9cbc45bfc0fed253222 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_c070b3dff9ace9cbc45bfc0fed253222.addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+            var circle_marker_e7bcfd06baf734f8c38fa3e3798e7296 = L.circleMarker(
+                [3.987, -73.758],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.651041666666667, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_2032aaa5e2a93cd5d0b24cab96f5c1e8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_35c5cf4a4d938244b974ba90830c2359 = $(`<div id="html_35c5cf4a4d938244b974ba90830c2359" style="width: 100.0%; height: 100.0%;"><b>ACACIAS</b><br>Total BRP: 5<br>Retirados: 1</div>`)[0];
+                popup_2032aaa5e2a93cd5d0b24cab96f5c1e8.setContent(html_35c5cf4a4d938244b974ba90830c2359);
+            
+        
+
+        circle_marker_e7bcfd06baf734f8c38fa3e3798e7296.bindPopup(popup_2032aaa5e2a93cd5d0b24cab96f5c1e8)
+        ;
+
+        
+    
+    
+            circle_marker_e7bcfd06baf734f8c38fa3e3798e7296.bindTooltip(
+                `<div>
+                     ACACIAS: BRP 5 | Ret 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_63a8be60af9ecb559273f8cad9ee048c = L.circleMarker(
+                [8.306, -73.611],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.041666666666666, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_1c5e40364539c4a1078dd58978741fe0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_462a16773ca412e4b43291d0ffad2e8a = $(`<div id="html_462a16773ca412e4b43291d0ffad2e8a" style="width: 100.0%; height: 100.0%;"><b>AGUACHICA</b><br>Total BRP: 8<br>Retirados: 3</div>`)[0];
+                popup_1c5e40364539c4a1078dd58978741fe0.setContent(html_462a16773ca412e4b43291d0ffad2e8a);
+            
+        
+
+        circle_marker_63a8be60af9ecb559273f8cad9ee048c.bindPopup(popup_1c5e40364539c4a1078dd58978741fe0)
+        ;
+
+        
+    
+    
+            circle_marker_63a8be60af9ecb559273f8cad9ee048c.bindTooltip(
+                `<div>
+                     AGUACHICA: BRP 8 | Ret 3
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_58eb345e117dc8cfb8d71bcb6fc1780f = L.circleMarker(
+                [5.174, -72.547],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.130208333333333, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_7f90f38f2769d5c3781c418ffe4c9035 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_22fc63cb77a45225fe0421e450295948 = $(`<div id="html_22fc63cb77a45225fe0421e450295948" style="width: 100.0%; height: 100.0%;"><b>AGUAZUL</b><br>Total BRP: 1<br>Retirados: 0</div>`)[0];
+                popup_7f90f38f2769d5c3781c418ffe4c9035.setContent(html_22fc63cb77a45225fe0421e450295948);
+            
+        
+
+        circle_marker_58eb345e117dc8cfb8d71bcb6fc1780f.bindPopup(popup_7f90f38f2769d5c3781c418ffe4c9035)
+        ;
+
+        
+    
+    
+            circle_marker_58eb345e117dc8cfb8d71bcb6fc1780f.bindTooltip(
+                `<div>
+                     AGUAZUL: BRP 1 | Ret 0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e625153ca130120e8479895e698a0802 = L.circleMarker(
+                [10.033, -73.233],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.520833333333333, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_4bcc35f085aaadc7c19c0c66ff61cb69 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a8354b5f5763f3bfb0eb8cef1842bb4b = $(`<div id="html_a8354b5f5763f3bfb0eb8cef1842bb4b" style="width: 100.0%; height: 100.0%;"><b>AGUSTIN CODAZZI</b><br>Total BRP: 4<br>Retirados: 2</div>`)[0];
+                popup_4bcc35f085aaadc7c19c0c66ff61cb69.setContent(html_a8354b5f5763f3bfb0eb8cef1842bb4b);
+            
+        
+
+        circle_marker_e625153ca130120e8479895e698a0802.bindPopup(popup_4bcc35f085aaadc7c19c0c66ff61cb69)
+        ;
+
+        
+    
+    
+            circle_marker_e625153ca130120e8479895e698a0802.bindTooltip(
+                `<div>
+                     AGUSTIN CODAZZI: BRP 4 | Ret 2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0d888b68319acb671d9f0a950c27daa2 = L.circleMarker(
+                [4.173, -76.166],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.130208333333333, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_74651a1288541eda8a619708ada27bc4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_63a1752d4f8719599990aa26b9877fd9 = $(`<div id="html_63a1752d4f8719599990aa26b9877fd9" style="width: 100.0%; height: 100.0%;"><b>ANDALUCIA</b><br>Total BRP: 1<br>Retirados: 0</div>`)[0];
+                popup_74651a1288541eda8a619708ada27bc4.setContent(html_63a1752d4f8719599990aa26b9877fd9);
+            
+        
+
+        circle_marker_0d888b68319acb671d9f0a950c27daa2.bindPopup(popup_74651a1288541eda8a619708ada27bc4)
+        ;
+
+        
+    
+    
+            circle_marker_0d888b68319acb671d9f0a950c27daa2.bindTooltip(
+                `<div>
+                     ANDALUCIA: BRP 1 | Ret 0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3ed3e3af545f4fcb581edf7d720e449e = L.circleMarker(
+                [7.085, -70.759],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.130208333333333, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_e354bf22050a9422c43a3ed45ab2193d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_835be5b912cc6872db739fccb18381e0 = $(`<div id="html_835be5b912cc6872db739fccb18381e0" style="width: 100.0%; height: 100.0%;"><b>ARAUCA</b><br>Total BRP: 1<br>Retirados: 0</div>`)[0];
+                popup_e354bf22050a9422c43a3ed45ab2193d.setContent(html_835be5b912cc6872db739fccb18381e0);
+            
+        
+
+        circle_marker_3ed3e3af545f4fcb581edf7d720e449e.bindPopup(popup_e354bf22050a9422c43a3ed45ab2193d)
+        ;
+
+        
+    
+    
+            circle_marker_3ed3e3af545f4fcb581edf7d720e449e.bindTooltip(
+                `<div>
+                     ARAUCA: BRP 1 | Ret 0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_08cede628e5dbd63c046d05ad1927e79 = L.circleMarker(
+                [4.534, -75.676],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.520833333333333, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_830ccf2e43a1231ed32051d863a5ed89 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2fff36b58c499c4ba8e5d693dbb98ad8 = $(`<div id="html_2fff36b58c499c4ba8e5d693dbb98ad8" style="width: 100.0%; height: 100.0%;"><b>ARMENIA</b><br>Total BRP: 4<br>Retirados: 1</div>`)[0];
+                popup_830ccf2e43a1231ed32051d863a5ed89.setContent(html_2fff36b58c499c4ba8e5d693dbb98ad8);
+            
+        
+
+        circle_marker_08cede628e5dbd63c046d05ad1927e79.bindPopup(popup_830ccf2e43a1231ed32051d863a5ed89)
+        ;
+
+        
+    
+    
+            circle_marker_08cede628e5dbd63c046d05ad1927e79.bindTooltip(
+                `<div>
+                     ARMENIA: BRP 4 | Ret 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ca7166d2071172b9047b192fcd099a97 = L.circleMarker(
+                [5.933, -73.617],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.260416666666667, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_c84f635bdced79704eaac9efb645167a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0f8390cf28e451c584ff9c904c6662c3 = $(`<div id="html_0f8390cf28e451c584ff9c904c6662c3" style="width: 100.0%; height: 100.0%;"><b>BARBOSA (Santander)</b><br>Total BRP: 2<br>Retirados: 0</div>`)[0];
+                popup_c84f635bdced79704eaac9efb645167a.setContent(html_0f8390cf28e451c584ff9c904c6662c3);
+            
+        
+
+        circle_marker_ca7166d2071172b9047b192fcd099a97.bindPopup(popup_c84f635bdced79704eaac9efb645167a)
+        ;
+
+        
+    
+    
+            circle_marker_ca7166d2071172b9047b192fcd099a97.bindTooltip(
+                `<div>
+                     BARBOSA (Santander): BRP 2 | Ret 0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_211cf627e53f8e667d80b0c802fd491b = L.circleMarker(
+                [7.065, -73.855],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.78125, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_744d20b9459360ab67cf6d6266e20c68 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7a539f0c3ef14da0e738fc8a5d7f4fa8 = $(`<div id="html_7a539f0c3ef14da0e738fc8a5d7f4fa8" style="width: 100.0%; height: 100.0%;"><b>BARRANCABERMEJA</b><br>Total BRP: 6<br>Retirados: 5</div>`)[0];
+                popup_744d20b9459360ab67cf6d6266e20c68.setContent(html_7a539f0c3ef14da0e738fc8a5d7f4fa8);
+            
+        
+
+        circle_marker_211cf627e53f8e667d80b0c802fd491b.bindPopup(popup_744d20b9459360ab67cf6d6266e20c68)
+        ;
+
+        
+    
+    
+            circle_marker_211cf627e53f8e667d80b0c802fd491b.bindTooltip(
+                `<div>
+                     BARRANCABERMEJA: BRP 6 | Ret 5
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_87891d3a9d33e5b55eae0f7cedea928c = L.circleMarker(
+                [10.968, -74.781],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.036458333333334, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_74583f33ee6b2670808294f58c5ee458 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2319ac444605d21aff81bf04008231c2 = $(`<div id="html_2319ac444605d21aff81bf04008231c2" style="width: 100.0%; height: 100.0%;"><b>BARRANQUILLA</b><br>Total BRP: 31<br>Retirados: 9</div>`)[0];
+                popup_74583f33ee6b2670808294f58c5ee458.setContent(html_2319ac444605d21aff81bf04008231c2);
+            
+        
+
+        circle_marker_87891d3a9d33e5b55eae0f7cedea928c.bindPopup(popup_74583f33ee6b2670808294f58c5ee458)
+        ;
+
+        
+    
+    
+            circle_marker_87891d3a9d33e5b55eae0f7cedea928c.bindTooltip(
+                `<div>
+                     BARRANQUILLA: BRP 31 | Ret 9
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e84f0c48c6a3f35671f275ec91546254 = L.circleMarker(
+                [6.337, -75.558],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.390625, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_3f5840219fed6e46bbb0ee802425343a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_04e86d97261d60050f714cf87385ed3d = $(`<div id="html_04e86d97261d60050f714cf87385ed3d" style="width: 100.0%; height: 100.0%;"><b>BELLO</b><br>Total BRP: 3<br>Retirados: 3</div>`)[0];
+                popup_3f5840219fed6e46bbb0ee802425343a.setContent(html_04e86d97261d60050f714cf87385ed3d);
+            
+        
+
+        circle_marker_e84f0c48c6a3f35671f275ec91546254.bindPopup(popup_3f5840219fed6e46bbb0ee802425343a)
+        ;
+
+        
+    
+    
+            circle_marker_e84f0c48c6a3f35671f275ec91546254.bindTooltip(
+                `<div>
+                     BELLO: BRP 3 | Ret 3
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_dad55d52f9f086fb6683baefd24dbf9f = L.circleMarker(
+                [4.711, -74.072],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 31.0, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_07f9a8ec923a46540cec546deffb5dce = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4014627b4ef673958b927ed2c05c5cc6 = $(`<div id="html_4014627b4ef673958b927ed2c05c5cc6" style="width: 100.0%; height: 100.0%;"><b>BOGOTA</b><br>Total BRP: 192<br>Retirados: 90</div>`)[0];
+                popup_07f9a8ec923a46540cec546deffb5dce.setContent(html_4014627b4ef673958b927ed2c05c5cc6);
+            
+        
+
+        circle_marker_dad55d52f9f086fb6683baefd24dbf9f.bindPopup(popup_07f9a8ec923a46540cec546deffb5dce)
+        ;
+
+        
+    
+    
+            circle_marker_dad55d52f9f086fb6683baefd24dbf9f.bindTooltip(
+                `<div>
+                     BOGOTA: BRP 192 | Ret 90
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fd3c8621f827f1f3b75aae1cb41745e2 = L.circleMarker(
+                [4.73, -74.346],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.130208333333333, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_b194825fd5e5bd5f50c47415c2fb32b8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_dccaa13f943bb3d5d85d33e18c79c332 = $(`<div id="html_dccaa13f943bb3d5d85d33e18c79c332" style="width: 100.0%; height: 100.0%;"><b>BOJACA</b><br>Total BRP: 1<br>Retirados: 0</div>`)[0];
+                popup_b194825fd5e5bd5f50c47415c2fb32b8.setContent(html_dccaa13f943bb3d5d85d33e18c79c332);
+            
+        
+
+        circle_marker_fd3c8621f827f1f3b75aae1cb41745e2.bindPopup(popup_b194825fd5e5bd5f50c47415c2fb32b8)
+        ;
+
+        
+    
+    
+            circle_marker_fd3c8621f827f1f3b75aae1cb41745e2.bindTooltip(
+                `<div>
+                     BOJACA: BRP 1 | Ret 0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_08f065a63ac684e1e03d3bd38aba4582 = L.circleMarker(
+                [7.125, -73.12],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.302083333333334, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_67997510d40e339fff121a6bdb6d3bf7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0a0074578d75c372450c6031bb1c3933 = $(`<div id="html_0a0074578d75c372450c6031bb1c3933" style="width: 100.0%; height: 100.0%;"><b>BUCARAMANGA</b><br>Total BRP: 10<br>Retirados: 7</div>`)[0];
+                popup_67997510d40e339fff121a6bdb6d3bf7.setContent(html_0a0074578d75c372450c6031bb1c3933);
+            
+        
+
+        circle_marker_08f065a63ac684e1e03d3bd38aba4582.bindPopup(popup_67997510d40e339fff121a6bdb6d3bf7)
+        ;
+
+        
+    
+    
+            circle_marker_08f065a63ac684e1e03d3bd38aba4582.bindTooltip(
+                `<div>
+                     BUCARAMANGA: BRP 10 | Ret 7
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_dc932f8edfabf07b142913195f364ba1 = L.circleMarker(
+                [3.88, -77.031],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.130208333333333, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_8fe91722dfe6e98a13ce628b1474a1f8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_056666a344f2f74cc1fb9bd31bc0772e = $(`<div id="html_056666a344f2f74cc1fb9bd31bc0772e" style="width: 100.0%; height: 100.0%;"><b>BUENAVENTURA</b><br>Total BRP: 1<br>Retirados: 0</div>`)[0];
+                popup_8fe91722dfe6e98a13ce628b1474a1f8.setContent(html_056666a344f2f74cc1fb9bd31bc0772e);
+            
+        
+
+        circle_marker_dc932f8edfabf07b142913195f364ba1.bindPopup(popup_8fe91722dfe6e98a13ce628b1474a1f8)
+        ;
+
+        
+    
+    
+            circle_marker_dc932f8edfabf07b142913195f364ba1.bindTooltip(
+                `<div>
+                     BUENAVENTURA: BRP 1 | Ret 0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ba2c7f67c8481aabfbc15cb965249ab0 = L.circleMarker(
+                [4.919, -74.028],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.5625, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_e19e5af98bc04abb890005eff7de55d0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b01593c5d24f6628a1853d9699861cfc = $(`<div id="html_b01593c5d24f6628a1853d9699861cfc" style="width: 100.0%; height: 100.0%;"><b>CAJICA</b><br>Total BRP: 12<br>Retirados: 2</div>`)[0];
+                popup_e19e5af98bc04abb890005eff7de55d0.setContent(html_b01593c5d24f6628a1853d9699861cfc);
+            
+        
+
+        circle_marker_ba2c7f67c8481aabfbc15cb965249ab0.bindPopup(popup_e19e5af98bc04abb890005eff7de55d0)
+        ;
+
+        
+    
+    
+            circle_marker_ba2c7f67c8481aabfbc15cb965249ab0.bindTooltip(
+                `<div>
+                     CAJICA: BRP 12 | Ret 2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2fd2587a72cf4ef52eb90d5e615ebaa1 = L.circleMarker(
+                [4.53, -75.641],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.130208333333333, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_94fc60a4bce42275051498950665e295 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ae48cfcd3792bebb06a1abd6506af906 = $(`<div id="html_ae48cfcd3792bebb06a1abd6506af906" style="width: 100.0%; height: 100.0%;"><b>CALARCA</b><br>Total BRP: 1<br>Retirados: 1</div>`)[0];
+                popup_94fc60a4bce42275051498950665e295.setContent(html_ae48cfcd3792bebb06a1abd6506af906);
+            
+        
+
+        circle_marker_2fd2587a72cf4ef52eb90d5e615ebaa1.bindPopup(popup_94fc60a4bce42275051498950665e295)
+        ;
+
+        
+    
+    
+            circle_marker_2fd2587a72cf4ef52eb90d5e615ebaa1.bindTooltip(
+                `<div>
+                     CALARCA: BRP 1 | Ret 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_68437450273abf0bed65834662c7ffd5 = L.circleMarker(
+                [3.451, -76.532],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.213541666666668, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_432ef3161eadf73036042db206d1a31e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a1624f8f0e4e1c0e656efde3a13a796a = $(`<div id="html_a1624f8f0e4e1c0e656efde3a13a796a" style="width: 100.0%; height: 100.0%;"><b>CALI</b><br>Total BRP: 17<br>Retirados: 4</div>`)[0];
+                popup_432ef3161eadf73036042db206d1a31e.setContent(html_a1624f8f0e4e1c0e656efde3a13a796a);
+            
+        
+
+        circle_marker_68437450273abf0bed65834662c7ffd5.bindPopup(popup_432ef3161eadf73036042db206d1a31e)
+        ;
+
+        
+    
+    
+            circle_marker_68437450273abf0bed65834662c7ffd5.bindTooltip(
+                `<div>
+                     CALI: BRP 17 | Ret 4
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_cb066acf17b7f7662b66b9467533adf0 = L.circleMarker(
+                [4.148, -74.721],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.130208333333333, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_901830002fd0eeb00c57fd6562bb8636 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_09eaf13b2ca8cc5c864d4273801e2070 = $(`<div id="html_09eaf13b2ca8cc5c864d4273801e2070" style="width: 100.0%; height: 100.0%;"><b>CARMEN DE APICALA</b><br>Total BRP: 1<br>Retirados: 0</div>`)[0];
+                popup_901830002fd0eeb00c57fd6562bb8636.setContent(html_09eaf13b2ca8cc5c864d4273801e2070);
+            
+        
+
+        circle_marker_cb066acf17b7f7662b66b9467533adf0.bindPopup(popup_901830002fd0eeb00c57fd6562bb8636)
+        ;
+
+        
+    
+    
+            circle_marker_cb066acf17b7f7662b66b9467533adf0.bindTooltip(
+                `<div>
+                     CARMEN DE APICALA: BRP 1 | Ret 0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_003b7f6c171e49dd98dc93dfc4e4bcd6 = L.circleMarker(
+                [10.391, -75.479],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.03125, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_f186c36a168e1dd52e68ea6a3a246c4c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3f3708bd0aa5cace1a4871957f709373 = $(`<div id="html_3f3708bd0aa5cace1a4871957f709373" style="width: 100.0%; height: 100.0%;"><b>CARTAGENA</b><br>Total BRP: 54<br>Retirados: 9</div>`)[0];
+                popup_f186c36a168e1dd52e68ea6a3a246c4c.setContent(html_3f3708bd0aa5cace1a4871957f709373);
+            
+        
+
+        circle_marker_003b7f6c171e49dd98dc93dfc4e4bcd6.bindPopup(popup_f186c36a168e1dd52e68ea6a3a246c4c)
+        ;
+
+        
+    
+    
+            circle_marker_003b7f6c171e49dd98dc93dfc4e4bcd6.bindTooltip(
+                `<div>
+                     CARTAGENA: BRP 54 | Ret 9
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1767922a358ac934f47f129cacc4b0ce = L.circleMarker(
+                [4.746, -75.912],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.130208333333333, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_24b490bd88cd76f0c032097beeec7b5a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b5805d87a14d735b3872f82edbdf8d1e = $(`<div id="html_b5805d87a14d735b3872f82edbdf8d1e" style="width: 100.0%; height: 100.0%;"><b>CARTAGO</b><br>Total BRP: 1<br>Retirados: 1</div>`)[0];
+                popup_24b490bd88cd76f0c032097beeec7b5a.setContent(html_b5805d87a14d735b3872f82edbdf8d1e);
+            
+        
+
+        circle_marker_1767922a358ac934f47f129cacc4b0ce.bindPopup(popup_24b490bd88cd76f0c032097beeec7b5a)
+        ;
+
+        
+    
+    
+            circle_marker_1767922a358ac934f47f129cacc4b0ce.bindTooltip(
+                `<div>
+                     CARTAGO: BRP 1 | Ret 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_44934e7bc2708fc0f8685760a80f53b3 = L.circleMarker(
+                [3.723, -75.483],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.260416666666667, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_e6f97bdb8fcc69428b0cee134d576b2f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e4272fb8f67b753eadc3000599c32a42 = $(`<div id="html_e4272fb8f67b753eadc3000599c32a42" style="width: 100.0%; height: 100.0%;"><b>CHAPARRAL</b><br>Total BRP: 2<br>Retirados: 1</div>`)[0];
+                popup_e6f97bdb8fcc69428b0cee134d576b2f.setContent(html_e4272fb8f67b753eadc3000599c32a42);
+            
+        
+
+        circle_marker_44934e7bc2708fc0f8685760a80f53b3.bindPopup(popup_e6f97bdb8fcc69428b0cee134d576b2f)
+        ;
+
+        
+    
+    
+            circle_marker_44934e7bc2708fc0f8685760a80f53b3.bindTooltip(
+                `<div>
+                     CHAPARRAL: BRP 2 | Ret 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6bf573d90bbb4e52c82920f7596a2ad0 = L.circleMarker(
+                [4.861, -74.058],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.651041666666667, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_06046a0347d8c3dafe3d4fc02a4e6eda = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e4fd24f4faea791bea272f0469509826 = $(`<div id="html_e4fd24f4faea791bea272f0469509826" style="width: 100.0%; height: 100.0%;"><b>CHIA</b><br>Total BRP: 5<br>Retirados: 2</div>`)[0];
+                popup_06046a0347d8c3dafe3d4fc02a4e6eda.setContent(html_e4fd24f4faea791bea272f0469509826);
+            
+        
+
+        circle_marker_6bf573d90bbb4e52c82920f7596a2ad0.bindPopup(popup_06046a0347d8c3dafe3d4fc02a4e6eda)
+        ;
+
+        
+    
+    
+            circle_marker_6bf573d90bbb4e52c82920f7596a2ad0.bindTooltip(
+                `<div>
+                     CHIA: BRP 5 | Ret 2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1ede161723b0a9346194f846768cc5d2 = L.circleMarker(
+                [4.981, -75.604],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.130208333333333, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_a9ff0719304252c53cfa58a7cf10b78e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e290d47f0968cb104756946838d280a9 = $(`<div id="html_e290d47f0968cb104756946838d280a9" style="width: 100.0%; height: 100.0%;"><b>CHINCHINA</b><br>Total BRP: 1<br>Retirados: 1</div>`)[0];
+                popup_a9ff0719304252c53cfa58a7cf10b78e.setContent(html_e290d47f0968cb104756946838d280a9);
+            
+        
+
+        circle_marker_1ede161723b0a9346194f846768cc5d2.bindPopup(popup_a9ff0719304252c53cfa58a7cf10b78e)
+        ;
+
+        
+    
+    
+            circle_marker_1ede161723b0a9346194f846768cc5d2.bindTooltip(
+                `<div>
+                     CHINCHINA: BRP 1 | Ret 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ca88a4230c1a2257f5a9251960d39e82 = L.circleMarker(
+                [5.852, -76.022],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.130208333333333, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_9dd0cffde499c421a508035c5324ebd5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_cbb8a7bca158bb4ce3fcf7aab11fe8b9 = $(`<div id="html_cbb8a7bca158bb4ce3fcf7aab11fe8b9" style="width: 100.0%; height: 100.0%;"><b>CIUDAD BOLIVAR</b><br>Total BRP: 1<br>Retirados: 1</div>`)[0];
+                popup_9dd0cffde499c421a508035c5324ebd5.setContent(html_cbb8a7bca158bb4ce3fcf7aab11fe8b9);
+            
+        
+
+        circle_marker_ca88a4230c1a2257f5a9251960d39e82.bindPopup(popup_9dd0cffde499c421a508035c5324ebd5)
+        ;
+
+        
+    
+    
+            circle_marker_ca88a4230c1a2257f5a9251960d39e82.bindTooltip(
+                `<div>
+                     CIUDAD BOLIVAR: BRP 1 | Ret 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c2417d84b23f1766460fb9e1e16c34a8 = L.circleMarker(
+                [4.809, -74.103],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.520833333333333, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_f27f80c6e6599333f7d5e55cd3fcdbeb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2fcc13c2774fa90f85257352d1e7e0bb = $(`<div id="html_2fcc13c2774fa90f85257352d1e7e0bb" style="width: 100.0%; height: 100.0%;"><b>COTA</b><br>Total BRP: 4<br>Retirados: 1</div>`)[0];
+                popup_f27f80c6e6599333f7d5e55cd3fcdbeb.setContent(html_2fcc13c2774fa90f85257352d1e7e0bb);
+            
+        
+
+        circle_marker_c2417d84b23f1766460fb9e1e16c34a8.bindPopup(popup_f27f80c6e6599333f7d5e55cd3fcdbeb)
+        ;
+
+        
+    
+    
+            circle_marker_c2417d84b23f1766460fb9e1e16c34a8.bindTooltip(
+                `<div>
+                     COTA: BRP 4 | Ret 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_be506dc181961ac2b68355a0202df768 = L.circleMarker(
+                [7.893, -72.507],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.520833333333333, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_c14a910cb0f9c0c22a1d69e30f80b6d8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_77657b0f0a1eb17ccdfe21a862cc4b18 = $(`<div id="html_77657b0f0a1eb17ccdfe21a862cc4b18" style="width: 100.0%; height: 100.0%;"><b>CÚCUTA</b><br>Total BRP: 4<br>Retirados: 3</div>`)[0];
+                popup_c14a910cb0f9c0c22a1d69e30f80b6d8.setContent(html_77657b0f0a1eb17ccdfe21a862cc4b18);
+            
+        
+
+        circle_marker_be506dc181961ac2b68355a0202df768.bindPopup(popup_c14a910cb0f9c0c22a1d69e30f80b6d8)
+        ;
+
+        
+    
+    
+            circle_marker_be506dc181961ac2b68355a0202df768.bindTooltip(
+                `<div>
+                     CÚCUTA: BRP 4 | Ret 3
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_048477cf966f12dd0a79ca3091a44825 = L.circleMarker(
+                [4.836, -75.684],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.130208333333333, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_151b1ce87869bfb56b4b5f7ca658dfe6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_23e094e25ab44caf6e4d01561e0b63ff = $(`<div id="html_23e094e25ab44caf6e4d01561e0b63ff" style="width: 100.0%; height: 100.0%;"><b>DOSQUEBRADAS</b><br>Total BRP: 1<br>Retirados: 0</div>`)[0];
+                popup_151b1ce87869bfb56b4b5f7ca658dfe6.setContent(html_23e094e25ab44caf6e4d01561e0b63ff);
+            
+        
+
+        circle_marker_048477cf966f12dd0a79ca3091a44825.bindPopup(popup_151b1ce87869bfb56b4b5f7ca658dfe6)
+        ;
+
+        
+    
+    
+            circle_marker_048477cf966f12dd0a79ca3091a44825.bindTooltip(
+                `<div>
+                     DOSQUEBRADAS: BRP 1 | Ret 0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_66b02bafa2075722cc78b7102693b899 = L.circleMarker(
+                [5.826, -73.033],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.260416666666667, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_fbc41ff6287a05feb2852143546c77b0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9aa9ccd375df65cc08419c5d5df3fecc = $(`<div id="html_9aa9ccd375df65cc08419c5d5df3fecc" style="width: 100.0%; height: 100.0%;"><b>DUITAMA</b><br>Total BRP: 2<br>Retirados: 2</div>`)[0];
+                popup_fbc41ff6287a05feb2852143546c77b0.setContent(html_9aa9ccd375df65cc08419c5d5df3fecc);
+            
+        
+
+        circle_marker_66b02bafa2075722cc78b7102693b899.bindPopup(popup_fbc41ff6287a05feb2852143546c77b0)
+        ;
+
+        
+    
+    
+            circle_marker_66b02bafa2075722cc78b7102693b899.bindTooltip(
+                `<div>
+                     DUITAMA: BRP 2 | Ret 2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_cede3c817b3a8eb7bd86de30063e63a8 = L.circleMarker(
+                [4.588, -74.444],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.130208333333333, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_26d05416f33bf4874eec333508fc1509 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_10c0f0066cfca9abee4eff6470c7fad8 = $(`<div id="html_10c0f0066cfca9abee4eff6470c7fad8" style="width: 100.0%; height: 100.0%;"><b>EL COLEGIO</b><br>Total BRP: 1<br>Retirados: 1</div>`)[0];
+                popup_26d05416f33bf4874eec333508fc1509.setContent(html_10c0f0066cfca9abee4eff6470c7fad8);
+            
+        
+
+        circle_marker_cede3c817b3a8eb7bd86de30063e63a8.bindPopup(popup_26d05416f33bf4874eec333508fc1509)
+        ;
+
+        
+    
+    
+            circle_marker_cede3c817b3a8eb7bd86de30063e63a8.bindTooltip(
+                `<div>
+                     EL COLEGIO: BRP 1 | Ret 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3ac617d59a83a65f05c8f0ba19c08c62 = L.circleMarker(
+                [6.175, -75.591],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.260416666666667, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_634bdbee23f389a41352ae71de90d1d6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c9b7b3ac74601c097c603491e10426ff = $(`<div id="html_c9b7b3ac74601c097c603491e10426ff" style="width: 100.0%; height: 100.0%;"><b>ENVIGADO</b><br>Total BRP: 2<br>Retirados: 1</div>`)[0];
+                popup_634bdbee23f389a41352ae71de90d1d6.setContent(html_c9b7b3ac74601c097c603491e10426ff);
+            
+        
+
+        circle_marker_3ac617d59a83a65f05c8f0ba19c08c62.bindPopup(popup_634bdbee23f389a41352ae71de90d1d6)
+        ;
+
+        
+    
+    
+            circle_marker_3ac617d59a83a65f05c8f0ba19c08c62.bindTooltip(
+                `<div>
+                     ENVIGADO: BRP 2 | Ret 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_90c43fe37b777461b255073d8503f996 = L.circleMarker(
+                [4.149, -74.931],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.130208333333333, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_b4cdee7ba25c37e0fe56f5a377954be7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_63a2791195279ff9fd0da3c4b2dccea0 = $(`<div id="html_63a2791195279ff9fd0da3c4b2dccea0" style="width: 100.0%; height: 100.0%;"><b>ESPINAL</b><br>Total BRP: 1<br>Retirados: 1</div>`)[0];
+                popup_b4cdee7ba25c37e0fe56f5a377954be7.setContent(html_63a2791195279ff9fd0da3c4b2dccea0);
+            
+        
+
+        circle_marker_90c43fe37b777461b255073d8503f996.bindPopup(popup_b4cdee7ba25c37e0fe56f5a377954be7)
+        ;
+
+        
+    
+    
+            circle_marker_90c43fe37b777461b255073d8503f996.bindTooltip(
+                `<div>
+                     ESPINAL: BRP 1 | Ret 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5df9a11a24ec9624159d8bbfaafe2bb2 = L.circleMarker(
+                [4.814, -74.353],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.390625, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_294ad69c1565aa00e2823ae60cb756e8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_dbbc2f2efd8e2af54578a2fa07d57e4d = $(`<div id="html_dbbc2f2efd8e2af54578a2fa07d57e4d" style="width: 100.0%; height: 100.0%;"><b>FACATATIVA</b><br>Total BRP: 3<br>Retirados: 0</div>`)[0];
+                popup_294ad69c1565aa00e2823ae60cb756e8.setContent(html_dbbc2f2efd8e2af54578a2fa07d57e4d);
+            
+        
+
+        circle_marker_5df9a11a24ec9624159d8bbfaafe2bb2.bindPopup(popup_294ad69c1565aa00e2823ae60cb756e8)
+        ;
+
+        
+    
+    
+            circle_marker_5df9a11a24ec9624159d8bbfaafe2bb2.bindTooltip(
+                `<div>
+                     FACATATIVA: BRP 3 | Ret 0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0b1d94c40bd5355723908e62c4289636 = L.circleMarker(
+                [4.288, -74.814],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.5625, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_05906a0a40099e296b85f1a61a298ae6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b39f276790065a7f5be2bbbd62b7eec6 = $(`<div id="html_b39f276790065a7f5be2bbbd62b7eec6" style="width: 100.0%; height: 100.0%;"><b>FLANDES</b><br>Total BRP: 12<br>Retirados: 3</div>`)[0];
+                popup_05906a0a40099e296b85f1a61a298ae6.setContent(html_b39f276790065a7f5be2bbbd62b7eec6);
+            
+        
+
+        circle_marker_0b1d94c40bd5355723908e62c4289636.bindPopup(popup_05906a0a40099e296b85f1a61a298ae6)
+        ;
+
+        
+    
+    
+            circle_marker_0b1d94c40bd5355723908e62c4289636.bindTooltip(
+                `<div>
+                     FLANDES: BRP 12 | Ret 3
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_85c814ac060e3982934acc97669023b0 = L.circleMarker(
+                [1.614, -75.606],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.130208333333333, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_d6860fe39f124bf6efc41904a027ad65 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f21b91b087707054dd89a522c5752b22 = $(`<div id="html_f21b91b087707054dd89a522c5752b22" style="width: 100.0%; height: 100.0%;"><b>FLORENCIA</b><br>Total BRP: 1<br>Retirados: 1</div>`)[0];
+                popup_d6860fe39f124bf6efc41904a027ad65.setContent(html_f21b91b087707054dd89a522c5752b22);
+            
+        
+
+        circle_marker_85c814ac060e3982934acc97669023b0.bindPopup(popup_d6860fe39f124bf6efc41904a027ad65)
+        ;
+
+        
+    
+    
+            circle_marker_85c814ac060e3982934acc97669023b0.bindTooltip(
+                `<div>
+                     FLORENCIA: BRP 1 | Ret 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e275707ced6cb109d58b08c88d07a0e0 = L.circleMarker(
+                [7.062, -73.086],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.130208333333333, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_a0dec2c1211540e19c07cc9ce76dd198 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e39e09c5e100a8c907f4a16f92543b3d = $(`<div id="html_e39e09c5e100a8c907f4a16f92543b3d" style="width: 100.0%; height: 100.0%;"><b>FLORIDABLANCA</b><br>Total BRP: 1<br>Retirados: 0</div>`)[0];
+                popup_a0dec2c1211540e19c07cc9ce76dd198.setContent(html_e39e09c5e100a8c907f4a16f92543b3d);
+            
+        
+
+        circle_marker_e275707ced6cb109d58b08c88d07a0e0.bindPopup(popup_a0dec2c1211540e19c07cc9ce76dd198)
+        ;
+
+        
+    
+    
+            circle_marker_e275707ced6cb109d58b08c88d07a0e0.bindTooltip(
+                `<div>
+                     FLORIDABLANCA: BRP 1 | Ret 0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6726dbd4d582baf74614c0f97df195dc = L.circleMarker(
+                [10.518, -74.186],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.90625, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_f3677d420006d48081d12233a2106fa4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_064b637ab7f2e69c090324cc9550e596 = $(`<div id="html_064b637ab7f2e69c090324cc9550e596" style="width: 100.0%; height: 100.0%;"><b>FUNDACION</b><br>Total BRP: 30<br>Retirados: 0</div>`)[0];
+                popup_f3677d420006d48081d12233a2106fa4.setContent(html_064b637ab7f2e69c090324cc9550e596);
+            
+        
+
+        circle_marker_6726dbd4d582baf74614c0f97df195dc.bindPopup(popup_f3677d420006d48081d12233a2106fa4)
+        ;
+
+        
+    
+    
+            circle_marker_6726dbd4d582baf74614c0f97df195dc.bindTooltip(
+                `<div>
+                     FUNDACION: BRP 30 | Ret 0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f530767313467c97df674f7aaf8a3bc7 = L.circleMarker(
+                [4.716, -74.211],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.78125, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_1a2133987c267df8a5d67869b1b23cdd = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_26f9c150e0c04dbf792ae2e7796e84d5 = $(`<div id="html_26f9c150e0c04dbf792ae2e7796e84d5" style="width: 100.0%; height: 100.0%;"><b>FUNZA</b><br>Total BRP: 6<br>Retirados: 3</div>`)[0];
+                popup_1a2133987c267df8a5d67869b1b23cdd.setContent(html_26f9c150e0c04dbf792ae2e7796e84d5);
+            
+        
+
+        circle_marker_f530767313467c97df674f7aaf8a3bc7.bindPopup(popup_1a2133987c267df8a5d67869b1b23cdd)
+        ;
+
+        
+    
+    
+            circle_marker_f530767313467c97df674f7aaf8a3bc7.bindTooltip(
+                `<div>
+                     FUNZA: BRP 6 | Ret 3
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8063a303bd0089a177ea833be70bf80f = L.circleMarker(
+                [4.336, -74.363],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.5625, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_675a72f52c4bb1e4e8e6c5d8407ce4ed = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9474e6957095d2e483c2851a39c48f6c = $(`<div id="html_9474e6957095d2e483c2851a39c48f6c" style="width: 100.0%; height: 100.0%;"><b>FUSAGASUGA</b><br>Total BRP: 12<br>Retirados: 2</div>`)[0];
+                popup_675a72f52c4bb1e4e8e6c5d8407ce4ed.setContent(html_9474e6957095d2e483c2851a39c48f6c);
+            
+        
+
+        circle_marker_8063a303bd0089a177ea833be70bf80f.bindPopup(popup_675a72f52c4bb1e4e8e6c5d8407ce4ed)
+        ;
+
+        
+    
+    
+            circle_marker_8063a303bd0089a177ea833be70bf80f.bindTooltip(
+                `<div>
+                     FUSAGASUGA: BRP 12 | Ret 2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d21df18bfce03fd212d43960149bc827 = L.circleMarker(
+                [4.305, -74.803],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.213541666666668, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_db2a41c9568a7d9d586b14c4acd7eb00 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1b09145458ede525491cf702044f9352 = $(`<div id="html_1b09145458ede525491cf702044f9352" style="width: 100.0%; height: 100.0%;"><b>GIRARDOT</b><br>Total BRP: 17<br>Retirados: 7</div>`)[0];
+                popup_db2a41c9568a7d9d586b14c4acd7eb00.setContent(html_1b09145458ede525491cf702044f9352);
+            
+        
+
+        circle_marker_d21df18bfce03fd212d43960149bc827.bindPopup(popup_db2a41c9568a7d9d586b14c4acd7eb00)
+        ;
+
+        
+    
+    
+            circle_marker_d21df18bfce03fd212d43960149bc827.bindTooltip(
+                `<div>
+                     GIRARDOT: BRP 17 | Ret 7
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6ca83e3792f34aca3656b05ab70b3b3b = L.circleMarker(
+                [7.073, -73.168],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.260416666666667, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_ac9b230b0d556717ac02582f016f6a20 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_da38e57f7c73cbb6e5507a02d83d2c6f = $(`<div id="html_da38e57f7c73cbb6e5507a02d83d2c6f" style="width: 100.0%; height: 100.0%;"><b>GIRON</b><br>Total BRP: 2<br>Retirados: 1</div>`)[0];
+                popup_ac9b230b0d556717ac02582f016f6a20.setContent(html_da38e57f7c73cbb6e5507a02d83d2c6f);
+            
+        
+
+        circle_marker_6ca83e3792f34aca3656b05ab70b3b3b.bindPopup(popup_ac9b230b0d556717ac02582f016f6a20)
+        ;
+
+        
+    
+    
+            circle_marker_6ca83e3792f34aca3656b05ab70b3b3b.bindTooltip(
+                `<div>
+                     GIRON: BRP 2 | Ret 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1056787592b0da74222b003c4fa36735 = L.circleMarker(
+                [3.546, -73.706],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.911458333333333, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_7d406cd8191fbbc57e6fab393311fa63 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_983273e3c10ae18fcf7ed14898bfa60c = $(`<div id="html_983273e3c10ae18fcf7ed14898bfa60c" style="width: 100.0%; height: 100.0%;"><b>GRANADA (Meta)</b><br>Total BRP: 7<br>Retirados: 2</div>`)[0];
+                popup_7d406cd8191fbbc57e6fab393311fa63.setContent(html_983273e3c10ae18fcf7ed14898bfa60c);
+            
+        
+
+        circle_marker_1056787592b0da74222b003c4fa36735.bindPopup(popup_7d406cd8191fbbc57e6fab393311fa63)
+        ;
+
+        
+    
+    
+            circle_marker_1056787592b0da74222b003c4fa36735.bindTooltip(
+                `<div>
+                     GRANADA (Meta): BRP 7 | Ret 2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e0b7fbb29a0d5948f5578fa1ec67f87a = L.circleMarker(
+                [3.9, -76.297],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.260416666666667, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_b10bd00e59670c294ac56b3cf6359b52 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a3ac1f9879995fa2af9f42e1d09ad4f8 = $(`<div id="html_a3ac1f9879995fa2af9f42e1d09ad4f8" style="width: 100.0%; height: 100.0%;"><b>GUADALAJARA DE BUGA</b><br>Total BRP: 2<br>Retirados: 1</div>`)[0];
+                popup_b10bd00e59670c294ac56b3cf6359b52.setContent(html_a3ac1f9879995fa2af9f42e1d09ad4f8);
+            
+        
+
+        circle_marker_e0b7fbb29a0d5948f5578fa1ec67f87a.bindPopup(popup_b10bd00e59670c294ac56b3cf6359b52)
+        ;
+
+        
+    
+    
+            circle_marker_e0b7fbb29a0d5948f5578fa1ec67f87a.bindTooltip(
+                `<div>
+                     GUADALAJARA DE BUGA: BRP 2 | Ret 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3882e72d638464335639247cf7d13486 = L.circleMarker(
+                [5.204, -74.741],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.130208333333333, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_25fe365cda877b87ce2fc28b18790e63 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f7ad1d254424e7d98cb812f9a5b62617 = $(`<div id="html_f7ad1d254424e7d98cb812f9a5b62617" style="width: 100.0%; height: 100.0%;"><b>HONDA</b><br>Total BRP: 1<br>Retirados: 0</div>`)[0];
+                popup_25fe365cda877b87ce2fc28b18790e63.setContent(html_f7ad1d254424e7d98cb812f9a5b62617);
+            
+        
+
+        circle_marker_3882e72d638464335639247cf7d13486.bindPopup(popup_25fe365cda877b87ce2fc28b18790e63)
+        ;
+
+        
+    
+    
+            circle_marker_3882e72d638464335639247cf7d13486.bindTooltip(
+                `<div>
+                     HONDA: BRP 1 | Ret 0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_cb8986c5f127ace2f460e8f15f42b035 = L.circleMarker(
+                [4.438, -75.232],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.083333333333332, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_4de32f28151318910882d494b82c3962 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0802c2e4dac0cd09cdf85fce296ee6d3 = $(`<div id="html_0802c2e4dac0cd09cdf85fce296ee6d3" style="width: 100.0%; height: 100.0%;"><b>IBAGUE</b><br>Total BRP: 16<br>Retirados: 8</div>`)[0];
+                popup_4de32f28151318910882d494b82c3962.setContent(html_0802c2e4dac0cd09cdf85fce296ee6d3);
+            
+        
+
+        circle_marker_cb8986c5f127ace2f460e8f15f42b035.bindPopup(popup_4de32f28151318910882d494b82c3962)
+        ;
+
+        
+    
+    
+            circle_marker_cb8986c5f127ace2f460e8f15f42b035.bindTooltip(
+                `<div>
+                     IBAGUE: BRP 16 | Ret 8
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b1952a04e0dcc112e95f58819da1ef50 = L.circleMarker(
+                [0.823, -77.632],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.130208333333333, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_88c50bf57cca85ca820160e0ef584462 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_99ce7dddfdf7d93dbcdb2304540bcaa1 = $(`<div id="html_99ce7dddfdf7d93dbcdb2304540bcaa1" style="width: 100.0%; height: 100.0%;"><b>IPIALES</b><br>Total BRP: 1<br>Retirados: 0</div>`)[0];
+                popup_88c50bf57cca85ca820160e0ef584462.setContent(html_99ce7dddfdf7d93dbcdb2304540bcaa1);
+            
+        
+
+        circle_marker_b1952a04e0dcc112e95f58819da1ef50.bindPopup(popup_88c50bf57cca85ca820160e0ef584462)
+        ;
+
+        
+    
+    
+            circle_marker_b1952a04e0dcc112e95f58819da1ef50.bindTooltip(
+                `<div>
+                     IPIALES: BRP 1 | Ret 0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_36cda65ec15dcb5e4ba3ff5c7af0da06 = L.circleMarker(
+                [3.262, -76.535],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.651041666666667, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_fdcad5de606fb488c61ac54942a7205a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_55d0c3d8245bec541779a3f81cdd758c = $(`<div id="html_55d0c3d8245bec541779a3f81cdd758c" style="width: 100.0%; height: 100.0%;"><b>JAMUNDI</b><br>Total BRP: 5<br>Retirados: 2</div>`)[0];
+                popup_fdcad5de606fb488c61ac54942a7205a.setContent(html_55d0c3d8245bec541779a3f81cdd758c);
+            
+        
+
+        circle_marker_36cda65ec15dcb5e4ba3ff5c7af0da06.bindPopup(popup_fdcad5de606fb488c61ac54942a7205a)
+        ;
+
+        
+    
+    
+            circle_marker_36cda65ec15dcb5e4ba3ff5c7af0da06.bindTooltip(
+                `<div>
+                     JAMUNDI: BRP 5 | Ret 2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4d24519879f39a79bc515dd99114833a = L.circleMarker(
+                [5.454, -74.664],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.130208333333333, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_331cf1ce46ec7dfe8191f93d6202608d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4c1840ed31421d74d09ebde90aa7cfca = $(`<div id="html_4c1840ed31421d74d09ebde90aa7cfca" style="width: 100.0%; height: 100.0%;"><b>LA DORADA</b><br>Total BRP: 1<br>Retirados: 0</div>`)[0];
+                popup_331cf1ce46ec7dfe8191f93d6202608d.setContent(html_4c1840ed31421d74d09ebde90aa7cfca);
+            
+        
+
+        circle_marker_4d24519879f39a79bc515dd99114833a.bindPopup(popup_331cf1ce46ec7dfe8191f93d6202608d)
+        ;
+
+        
+    
+    
+            circle_marker_4d24519879f39a79bc515dd99114833a.bindTooltip(
+                `<div>
+                     LA DORADA: BRP 1 | Ret 0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c41444f64ed7d7b0b49dc61d21da626a = L.circleMarker(
+                [6.158, -75.643],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.130208333333333, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_655eeb455785fdd3bb1e39d5a3b45604 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9654d7989617261a28253006d32ffc21 = $(`<div id="html_9654d7989617261a28253006d32ffc21" style="width: 100.0%; height: 100.0%;"><b>LA ESTRELLA</b><br>Total BRP: 1<br>Retirados: 1</div>`)[0];
+                popup_655eeb455785fdd3bb1e39d5a3b45604.setContent(html_9654d7989617261a28253006d32ffc21);
+            
+        
+
+        circle_marker_c41444f64ed7d7b0b49dc61d21da626a.bindPopup(popup_655eeb455785fdd3bb1e39d5a3b45604)
+        ;
+
+        
+    
+    
+            circle_marker_c41444f64ed7d7b0b49dc61d21da626a.bindTooltip(
+                `<div>
+                     LA ESTRELLA: BRP 1 | Ret 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d667aa9b47e1ca1b3cfeaf0eb8163d58 = L.circleMarker(
+                [4.632, -74.463],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.911458333333333, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_a58764350495a5295a7d83bdce6d105c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2cf69c27001ab013626042a7235d1dc6 = $(`<div id="html_2cf69c27001ab013626042a7235d1dc6" style="width: 100.0%; height: 100.0%;"><b>LA MESA</b><br>Total BRP: 7<br>Retirados: 5</div>`)[0];
+                popup_a58764350495a5295a7d83bdce6d105c.setContent(html_2cf69c27001ab013626042a7235d1dc6);
+            
+        
+
+        circle_marker_d667aa9b47e1ca1b3cfeaf0eb8163d58.bindPopup(popup_a58764350495a5295a7d83bdce6d105c)
+        ;
+
+        
+    
+    
+            circle_marker_d667aa9b47e1ca1b3cfeaf0eb8163d58.bindTooltip(
+                `<div>
+                     LA MESA: BRP 7 | Ret 5
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_613a4493cca204e86ff6bcdb9509cfa8 = L.circleMarker(
+                [7.859, -72.504],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.260416666666667, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_9386c081a2b4bf0a49c235144747090e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7e886db39a15f780939f638fd430ab5d = $(`<div id="html_7e886db39a15f780939f638fd430ab5d" style="width: 100.0%; height: 100.0%;"><b>LOS PATIOS</b><br>Total BRP: 2<br>Retirados: 2</div>`)[0];
+                popup_9386c081a2b4bf0a49c235144747090e.setContent(html_7e886db39a15f780939f638fd430ab5d);
+            
+        
+
+        circle_marker_613a4493cca204e86ff6bcdb9509cfa8.bindPopup(popup_9386c081a2b4bf0a49c235144747090e)
+        ;
+
+        
+    
+    
+            circle_marker_613a4493cca204e86ff6bcdb9509cfa8.bindTooltip(
+                `<div>
+                     LOS PATIOS: BRP 2 | Ret 2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2689583ac0cc8065fe103a1e1d76bf1c = L.circleMarker(
+                [4.732, -74.264],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.651041666666667, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_21b0bb6b77db0a770666421a4026f169 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c08c4019fead086598b9356fb8f49a63 = $(`<div id="html_c08c4019fead086598b9356fb8f49a63" style="width: 100.0%; height: 100.0%;"><b>MADRID</b><br>Total BRP: 5<br>Retirados: 1</div>`)[0];
+                popup_21b0bb6b77db0a770666421a4026f169.setContent(html_c08c4019fead086598b9356fb8f49a63);
+            
+        
+
+        circle_marker_2689583ac0cc8065fe103a1e1d76bf1c.bindPopup(popup_21b0bb6b77db0a770666421a4026f169)
+        ;
+
+        
+    
+    
+            circle_marker_2689583ac0cc8065fe103a1e1d76bf1c.bindTooltip(
+                `<div>
+                     MADRID: BRP 5 | Ret 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f0110ca32ab257051c5b8d18f9935930 = L.circleMarker(
+                [5.068, -75.517],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.520833333333333, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_5da2d9f8de71c807776ce2cf3ee7c625 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a4e0d27a4ac1bf7009e6c4acf479f77f = $(`<div id="html_a4e0d27a4ac1bf7009e6c4acf479f77f" style="width: 100.0%; height: 100.0%;"><b>MANIZALES</b><br>Total BRP: 4<br>Retirados: 2</div>`)[0];
+                popup_5da2d9f8de71c807776ce2cf3ee7c625.setContent(html_a4e0d27a4ac1bf7009e6c4acf479f77f);
+            
+        
+
+        circle_marker_f0110ca32ab257051c5b8d18f9935930.bindPopup(popup_5da2d9f8de71c807776ce2cf3ee7c625)
+        ;
+
+        
+    
+    
+            circle_marker_f0110ca32ab257051c5b8d18f9935930.bindTooltip(
+                `<div>
+                     MANIZALES: BRP 4 | Ret 2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_57a44b0dde61ed7475f67355f17c6648 = L.circleMarker(
+                [5.201, -74.893],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.260416666666667, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_7f493d9efee08b1c84c5367649b959b7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fc3678b1efe1b5cc52390e3664ac572d = $(`<div id="html_fc3678b1efe1b5cc52390e3664ac572d" style="width: 100.0%; height: 100.0%;"><b>MARIQUITA</b><br>Total BRP: 2<br>Retirados: 1</div>`)[0];
+                popup_7f493d9efee08b1c84c5367649b959b7.setContent(html_fc3678b1efe1b5cc52390e3664ac572d);
+            
+        
+
+        circle_marker_57a44b0dde61ed7475f67355f17c6648.bindPopup(popup_7f493d9efee08b1c84c5367649b959b7)
+        ;
+
+        
+    
+    
+            circle_marker_57a44b0dde61ed7475f67355f17c6648.bindTooltip(
+                `<div>
+                     MARIQUITA: BRP 2 | Ret 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fef3fa106a784a7bfd5e3afceead2fb3 = L.circleMarker(
+                [6.244, -75.581],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.390625, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_a7dd13da8cf974bdd5aaea09e6177e6a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b1d585670e5c54b9e3adee9561061e7b = $(`<div id="html_b1d585670e5c54b9e3adee9561061e7b" style="width: 100.0%; height: 100.0%;"><b>MEDELLIN</b><br>Total BRP: 3<br>Retirados: 2</div>`)[0];
+                popup_a7dd13da8cf974bdd5aaea09e6177e6a.setContent(html_b1d585670e5c54b9e3adee9561061e7b);
+            
+        
+
+        circle_marker_fef3fa106a784a7bfd5e3afceead2fb3.bindPopup(popup_a7dd13da8cf974bdd5aaea09e6177e6a)
+        ;
+
+        
+    
+    
+            circle_marker_fef3fa106a784a7bfd5e3afceead2fb3.bindTooltip(
+                `<div>
+                     MEDELLIN: BRP 3 | Ret 2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7709c8099fad7cc2098a0baf3e1838d8 = L.circleMarker(
+                [4.204, -74.642],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.651041666666667, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_4f23c93574e5ba14965717122733d806 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_db7b1c201cbb5a0c176f9b515f722866 = $(`<div id="html_db7b1c201cbb5a0c176f9b515f722866" style="width: 100.0%; height: 100.0%;"><b>MELGAR</b><br>Total BRP: 5<br>Retirados: 1</div>`)[0];
+                popup_4f23c93574e5ba14965717122733d806.setContent(html_db7b1c201cbb5a0c176f9b515f722866);
+            
+        
+
+        circle_marker_7709c8099fad7cc2098a0baf3e1838d8.bindPopup(popup_4f23c93574e5ba14965717122733d806)
+        ;
+
+        
+    
+    
+            circle_marker_7709c8099fad7cc2098a0baf3e1838d8.bindTooltip(
+                `<div>
+                     MELGAR: BRP 5 | Ret 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_866b270d48da3e266366768bfa8acc69 = L.circleMarker(
+                [6.476, -72.969],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.130208333333333, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_793049f04ab1ffdec2187d100cc543cc = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5e843c951d3857479bf5297e232d09d1 = $(`<div id="html_5e843c951d3857479bf5297e232d09d1" style="width: 100.0%; height: 100.0%;"><b>MOGOTES</b><br>Total BRP: 1<br>Retirados: 0</div>`)[0];
+                popup_793049f04ab1ffdec2187d100cc543cc.setContent(html_5e843c951d3857479bf5297e232d09d1);
+            
+        
+
+        circle_marker_866b270d48da3e266366768bfa8acc69.bindPopup(popup_793049f04ab1ffdec2187d100cc543cc)
+        ;
+
+        
+    
+    
+            circle_marker_866b270d48da3e266366768bfa8acc69.bindTooltip(
+                `<div>
+                     MOGOTES: BRP 1 | Ret 0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_32d36785fa637894d6b6e209642a1866 = L.circleMarker(
+                [7.979, -75.418],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.130208333333333, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_d5245aaaec04614019631512479049cc = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8e9816ec3cfb8a90552e6ce106417240 = $(`<div id="html_8e9816ec3cfb8a90552e6ce106417240" style="width: 100.0%; height: 100.0%;"><b>MONTELIBANO</b><br>Total BRP: 1<br>Retirados: 0</div>`)[0];
+                popup_d5245aaaec04614019631512479049cc.setContent(html_8e9816ec3cfb8a90552e6ce106417240);
+            
+        
+
+        circle_marker_32d36785fa637894d6b6e209642a1866.bindPopup(popup_d5245aaaec04614019631512479049cc)
+        ;
+
+        
+    
+    
+            circle_marker_32d36785fa637894d6b6e209642a1866.bindTooltip(
+                `<div>
+                     MONTELIBANO: BRP 1 | Ret 0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_54206b050c255afaeb6beaccc86e5777 = L.circleMarker(
+                [8.747, -75.881],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.390625, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_b899eeaee0368a49f0ae0e36743b22a9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7567dc03a9e5dec27a30a3a13d2b9678 = $(`<div id="html_7567dc03a9e5dec27a30a3a13d2b9678" style="width: 100.0%; height: 100.0%;"><b>MONTERIA</b><br>Total BRP: 3<br>Retirados: 0</div>`)[0];
+                popup_b899eeaee0368a49f0ae0e36743b22a9.setContent(html_7567dc03a9e5dec27a30a3a13d2b9678);
+            
+        
+
+        circle_marker_54206b050c255afaeb6beaccc86e5777.bindPopup(popup_b899eeaee0368a49f0ae0e36743b22a9)
+        ;
+
+        
+    
+    
+            circle_marker_54206b050c255afaeb6beaccc86e5777.bindTooltip(
+                `<div>
+                     MONTERIA: BRP 3 | Ret 0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_bb4e77e062de9d31165c9fcaa177bd06 = L.circleMarker(
+                [4.706, -74.23],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.041666666666666, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_ea903f20218bb142ec071cdd1fd87636 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_208a8d5e20856c3f51b4b49bff2c28fa = $(`<div id="html_208a8d5e20856c3f51b4b49bff2c28fa" style="width: 100.0%; height: 100.0%;"><b>MOSQUERA</b><br>Total BRP: 8<br>Retirados: 3</div>`)[0];
+                popup_ea903f20218bb142ec071cdd1fd87636.setContent(html_208a8d5e20856c3f51b4b49bff2c28fa);
+            
+        
+
+        circle_marker_bb4e77e062de9d31165c9fcaa177bd06.bindPopup(popup_ea903f20218bb142ec071cdd1fd87636)
+        ;
+
+        
+    
+    
+            circle_marker_bb4e77e062de9d31165c9fcaa177bd06.bindTooltip(
+                `<div>
+                     MOSQUERA: BRP 8 | Ret 3
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c1e5d96080abc61252cbac110fb8e3bf = L.circleMarker(
+                [2.927, -75.281],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.302083333333334, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_993c0ba4bc7efbbc56f870395366d6f0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b56e34abaf545d7c7a9261e4810ae058 = $(`<div id="html_b56e34abaf545d7c7a9261e4810ae058" style="width: 100.0%; height: 100.0%;"><b>NEIVA</b><br>Total BRP: 10<br>Retirados: 5</div>`)[0];
+                popup_993c0ba4bc7efbbc56f870395366d6f0.setContent(html_b56e34abaf545d7c7a9261e4810ae058);
+            
+        
+
+        circle_marker_c1e5d96080abc61252cbac110fb8e3bf.bindPopup(popup_993c0ba4bc7efbbc56f870395366d6f0)
+        ;
+
+        
+    
+    
+            circle_marker_c1e5d96080abc61252cbac110fb8e3bf.bindTooltip(
+                `<div>
+                     NEIVA: BRP 10 | Ret 5
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_cb7bc448ab7860296e6c208100c2a863 = L.circleMarker(
+                [4.303, -74.62],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.5625, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_123f631877098c4f1741cba037c24035 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_feab23a57b350fc117cd8a0e0d6deddf = $(`<div id="html_feab23a57b350fc117cd8a0e0d6deddf" style="width: 100.0%; height: 100.0%;"><b>NILO</b><br>Total BRP: 12<br>Retirados: 4</div>`)[0];
+                popup_123f631877098c4f1741cba037c24035.setContent(html_feab23a57b350fc117cd8a0e0d6deddf);
+            
+        
+
+        circle_marker_cb7bc448ab7860296e6c208100c2a863.bindPopup(popup_123f631877098c4f1741cba037c24035)
+        ;
+
+        
+    
+    
+            circle_marker_cb7bc448ab7860296e6c208100c2a863.bindTooltip(
+                `<div>
+                     NILO: BRP 12 | Ret 4
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8074a7718dee5a04e371f2847fbc970a = L.circleMarker(
+                [8.234, -73.354],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.260416666666667, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_e740bc97ddf067014ccfb745075f6ac4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_68a502289b2f56ea9220d35f0a946860 = $(`<div id="html_68a502289b2f56ea9220d35f0a946860" style="width: 100.0%; height: 100.0%;"><b>OCAÑA</b><br>Total BRP: 2<br>Retirados: 2</div>`)[0];
+                popup_e740bc97ddf067014ccfb745075f6ac4.setContent(html_68a502289b2f56ea9220d35f0a946860);
+            
+        
+
+        circle_marker_8074a7718dee5a04e371f2847fbc970a.bindPopup(popup_e740bc97ddf067014ccfb745075f6ac4)
+        ;
+
+        
+    
+    
+            circle_marker_8074a7718dee5a04e371f2847fbc970a.bindTooltip(
+                `<div>
+                     OCAÑA: BRP 2 | Ret 2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ba9de054fe554c913d9d337f08f12e7c = L.circleMarker(
+                [6.267, -73.3],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.390625, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_6574bd69be68810e464e5d0a307ee5ab = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9afb9eea8e5486176837f3e6fc10ba28 = $(`<div id="html_9afb9eea8e5486176837f3e6fc10ba28" style="width: 100.0%; height: 100.0%;"><b>OIBA</b><br>Total BRP: 3<br>Retirados: 0</div>`)[0];
+                popup_6574bd69be68810e464e5d0a307ee5ab.setContent(html_9afb9eea8e5486176837f3e6fc10ba28);
+            
+        
+
+        circle_marker_ba9de054fe554c913d9d337f08f12e7c.bindPopup(popup_6574bd69be68810e464e5d0a307ee5ab)
+        ;
+
+        
+    
+    
+            circle_marker_ba9de054fe554c913d9d337f08f12e7c.bindTooltip(
+                `<div>
+                     OIBA: BRP 3 | Ret 0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f1537ced098aad871e80b893e6cb5bf6 = L.circleMarker(
+                [3.539, -76.303],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.260416666666667, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_76dd9e509e0bd5b9dd5a325e29ed9a80 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7d1999d86218f4b258985f292276bdbf = $(`<div id="html_7d1999d86218f4b258985f292276bdbf" style="width: 100.0%; height: 100.0%;"><b>PALMIRA</b><br>Total BRP: 2<br>Retirados: 0</div>`)[0];
+                popup_76dd9e509e0bd5b9dd5a325e29ed9a80.setContent(html_7d1999d86218f4b258985f292276bdbf);
+            
+        
+
+        circle_marker_f1537ced098aad871e80b893e6cb5bf6.bindPopup(popup_76dd9e509e0bd5b9dd5a325e29ed9a80)
+        ;
+
+        
+    
+    
+            circle_marker_f1537ced098aad871e80b893e6cb5bf6.bindTooltip(
+                `<div>
+                     PALMIRA: BRP 2 | Ret 0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fb8b736a1b34c91a9641beea003c00bf = L.circleMarker(
+                [1.213, -77.281],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.130208333333333, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_11efdbeca8788f4351af1a28f8af2562 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_567b20b81d5fa7898abd687c2c3587a1 = $(`<div id="html_567b20b81d5fa7898abd687c2c3587a1" style="width: 100.0%; height: 100.0%;"><b>PASTO</b><br>Total BRP: 1<br>Retirados: 0</div>`)[0];
+                popup_11efdbeca8788f4351af1a28f8af2562.setContent(html_567b20b81d5fa7898abd687c2c3587a1);
+            
+        
+
+        circle_marker_fb8b736a1b34c91a9641beea003c00bf.bindPopup(popup_11efdbeca8788f4351af1a28f8af2562)
+        ;
+
+        
+    
+    
+            circle_marker_fb8b736a1b34c91a9641beea003c00bf.bindTooltip(
+                `<div>
+                     PASTO: BRP 1 | Ret 0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d41367dc9a26f595354e11216c33ae39 = L.circleMarker(
+                [8.411, -73.666],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.130208333333333, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_e6e1a7d94c9682ab17bca1ddd6e914bd = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5befb83293dd27e88ee9d26011f341c5 = $(`<div id="html_5befb83293dd27e88ee9d26011f341c5" style="width: 100.0%; height: 100.0%;"><b>PELAYA</b><br>Total BRP: 1<br>Retirados: 0</div>`)[0];
+                popup_e6e1a7d94c9682ab17bca1ddd6e914bd.setContent(html_5befb83293dd27e88ee9d26011f341c5);
+            
+        
+
+        circle_marker_d41367dc9a26f595354e11216c33ae39.bindPopup(popup_e6e1a7d94c9682ab17bca1ddd6e914bd)
+        ;
+
+        
+    
+    
+            circle_marker_d41367dc9a26f595354e11216c33ae39.bindTooltip(
+                `<div>
+                     PELAYA: BRP 1 | Ret 0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_17dc1685cbf495cb9b0632f9bdbda11a = L.circleMarker(
+                [4.813, -75.694],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.822916666666667, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_5e660552684d1c399a1c4e0e8a6a7842 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b432a74b14b4b802bbf01b7a7ed37cf0 = $(`<div id="html_b432a74b14b4b802bbf01b7a7ed37cf0" style="width: 100.0%; height: 100.0%;"><b>PEREIRA</b><br>Total BRP: 14<br>Retirados: 10</div>`)[0];
+                popup_5e660552684d1c399a1c4e0e8a6a7842.setContent(html_b432a74b14b4b802bbf01b7a7ed37cf0);
+            
+        
+
+        circle_marker_17dc1685cbf495cb9b0632f9bdbda11a.bindPopup(popup_5e660552684d1c399a1c4e0e8a6a7842)
+        ;
+
+        
+    
+    
+            circle_marker_17dc1685cbf495cb9b0632f9bdbda11a.bindTooltip(
+                `<div>
+                     PEREIRA: BRP 14 | Ret 10
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_75707c24b4208921e6cd7d9efef3b247 = L.circleMarker(
+                [7.006, -73.049],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.130208333333333, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_5a5c7a0f3eb41e3936c67fefecb8f1f4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_54eaf0510dd37671bb6eee7ac1c45289 = $(`<div id="html_54eaf0510dd37671bb6eee7ac1c45289" style="width: 100.0%; height: 100.0%;"><b>PIEDECUESTA</b><br>Total BRP: 1<br>Retirados: 0</div>`)[0];
+                popup_5a5c7a0f3eb41e3936c67fefecb8f1f4.setContent(html_54eaf0510dd37671bb6eee7ac1c45289);
+            
+        
+
+        circle_marker_75707c24b4208921e6cd7d9efef3b247.bindPopup(popup_5a5c7a0f3eb41e3936c67fefecb8f1f4)
+        ;
+
+        
+    
+    
+            circle_marker_75707c24b4208921e6cd7d9efef3b247.bindTooltip(
+                `<div>
+                     PIEDECUESTA: BRP 1 | Ret 0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a788a2bf4d9a720e38f8ffa9fcc96298 = L.circleMarker(
+                [2.441, -76.606],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.260416666666667, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_7b88625d0cf0dd5fe80fb11d4bb86ddc = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5cd962339b9a21a5cb7c6d067e12cff0 = $(`<div id="html_5cd962339b9a21a5cb7c6d067e12cff0" style="width: 100.0%; height: 100.0%;"><b>POPAYAN</b><br>Total BRP: 2<br>Retirados: 0</div>`)[0];
+                popup_7b88625d0cf0dd5fe80fb11d4bb86ddc.setContent(html_5cd962339b9a21a5cb7c6d067e12cff0);
+            
+        
+
+        circle_marker_a788a2bf4d9a720e38f8ffa9fcc96298.bindPopup(popup_7b88625d0cf0dd5fe80fb11d4bb86ddc)
+        ;
+
+        
+    
+    
+            circle_marker_a788a2bf4d9a720e38f8ffa9fcc96298.bindTooltip(
+                `<div>
+                     POPAYAN: BRP 2 | Ret 0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fe7cb64cc83edd79b45be1e7ed67b4e2 = L.circleMarker(
+                [5.975, -74.588],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.390625, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_997045de4d81f9152c27a14ba1cc2c83 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0b6bf8b888d7feed715eaef24a207d92 = $(`<div id="html_0b6bf8b888d7feed715eaef24a207d92" style="width: 100.0%; height: 100.0%;"><b>PUERTO BOYACA</b><br>Total BRP: 3<br>Retirados: 1</div>`)[0];
+                popup_997045de4d81f9152c27a14ba1cc2c83.setContent(html_0b6bf8b888d7feed715eaef24a207d92);
+            
+        
+
+        circle_marker_fe7cb64cc83edd79b45be1e7ed67b4e2.bindPopup(popup_997045de4d81f9152c27a14ba1cc2c83)
+        ;
+
+        
+    
+    
+            circle_marker_fe7cb64cc83edd79b45be1e7ed67b4e2.bindTooltip(
+                `<div>
+                     PUERTO BOYACA: BRP 3 | Ret 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_104d4826dd3ff41664feab1fd5d3857b = L.circleMarker(
+                [11.011, -74.887],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.78125, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_428cead3bde7a5d4423867c1c3336bd0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_95f17014680e35cb44c1bd252f379a29 = $(`<div id="html_95f17014680e35cb44c1bd252f379a29" style="width: 100.0%; height: 100.0%;"><b>PUERTO COLOMBIA</b><br>Total BRP: 6<br>Retirados: 0</div>`)[0];
+                popup_428cead3bde7a5d4423867c1c3336bd0.setContent(html_95f17014680e35cb44c1bd252f379a29);
+            
+        
+
+        circle_marker_104d4826dd3ff41664feab1fd5d3857b.bindPopup(popup_428cead3bde7a5d4423867c1c3336bd0)
+        ;
+
+        
+    
+    
+            circle_marker_104d4826dd3ff41664feab1fd5d3857b.bindTooltip(
+                `<div>
+                     PUERTO COLOMBIA: BRP 6 | Ret 0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3424411f22a0ab04ebc0e07f28203fd9 = L.circleMarker(
+                [4.253, -73.565],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.260416666666667, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_4f3eb15698e022ebe7f63e5ca3b945b1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8bc83b8403f9d61af759ad077f6f2131 = $(`<div id="html_8bc83b8403f9d61af759ad077f6f2131" style="width: 100.0%; height: 100.0%;"><b>RESTREPO (Meta)</b><br>Total BRP: 2<br>Retirados: 1</div>`)[0];
+                popup_4f3eb15698e022ebe7f63e5ca3b945b1.setContent(html_8bc83b8403f9d61af759ad077f6f2131);
+            
+        
+
+        circle_marker_3424411f22a0ab04ebc0e07f28203fd9.bindPopup(popup_4f3eb15698e022ebe7f63e5ca3b945b1)
+        ;
+
+        
+    
+    
+            circle_marker_3424411f22a0ab04ebc0e07f28203fd9.bindTooltip(
+                `<div>
+                     RESTREPO (Meta): BRP 2 | Ret 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ad2929bb2870e54ab2688fa88e7fbe18 = L.circleMarker(
+                [4.281, -74.767],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.78125, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_48b1dad3e37df469fe1c16c9a1971b3a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6f5e746ffc80ec2b6521c46dfbf5d1ee = $(`<div id="html_6f5e746ffc80ec2b6521c46dfbf5d1ee" style="width: 100.0%; height: 100.0%;"><b>RICAURTE (Cundinamarca)</b><br>Total BRP: 6<br>Retirados: 0</div>`)[0];
+                popup_48b1dad3e37df469fe1c16c9a1971b3a.setContent(html_6f5e746ffc80ec2b6521c46dfbf5d1ee);
+            
+        
+
+        circle_marker_ad2929bb2870e54ab2688fa88e7fbe18.bindPopup(popup_48b1dad3e37df469fe1c16c9a1971b3a)
+        ;
+
+        
+    
+    
+            circle_marker_ad2929bb2870e54ab2688fa88e7fbe18.bindTooltip(
+                `<div>
+                     RICAURTE (Cundinamarca): BRP 6 | Ret 0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1fcc7bb13cb2381981ae0ad894f6f9ac = L.circleMarker(
+                [6.155, -75.373],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.213541666666668, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_272b6575bb7962c71b6b7f9dfb3ef0b6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0774a7b9dba499a78995e728741cb4be = $(`<div id="html_0774a7b9dba499a78995e728741cb4be" style="width: 100.0%; height: 100.0%;"><b>RIONEGRO (Antioquia)</b><br>Total BRP: 17<br>Retirados: 5</div>`)[0];
+                popup_272b6575bb7962c71b6b7f9dfb3ef0b6.setContent(html_0774a7b9dba499a78995e728741cb4be);
+            
+        
+
+        circle_marker_1fcc7bb13cb2381981ae0ad894f6f9ac.bindPopup(popup_272b6575bb7962c71b6b7f9dfb3ef0b6)
+        ;
+
+        
+    
+    
+            circle_marker_1fcc7bb13cb2381981ae0ad894f6f9ac.bindTooltip(
+                `<div>
+                     RIONEGRO (Antioquia): BRP 17 | Ret 5
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_52f95f8cad92847fd94ee28eb1837912 = L.circleMarker(
+                [6.151, -75.615],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.083333333333332, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_8161b32bd3cfb0eaa48dc850b2da7d1d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4023725b9d7328cf3934f0fcc1403806 = $(`<div id="html_4023725b9d7328cf3934f0fcc1403806" style="width: 100.0%; height: 100.0%;"><b>SABANETA</b><br>Total BRP: 16<br>Retirados: 0</div>`)[0];
+                popup_8161b32bd3cfb0eaa48dc850b2da7d1d.setContent(html_4023725b9d7328cf3934f0fcc1403806);
+            
+        
+
+        circle_marker_52f95f8cad92847fd94ee28eb1837912.bindPopup(popup_8161b32bd3cfb0eaa48dc850b2da7d1d)
+        ;
+
+        
+    
+    
+            circle_marker_52f95f8cad92847fd94ee28eb1837912.bindTooltip(
+                `<div>
+                     SABANETA: BRP 16 | Ret 0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fb8cbb7d2656ba4804fcba6855d92954 = L.circleMarker(
+                [7.761, -73.392],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.130208333333333, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_e93c5dea4e1e264deb303917cbc3757f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_dbeb0f30a5ad32c9747869c7551f29ac = $(`<div id="html_dbeb0f30a5ad32c9747869c7551f29ac" style="width: 100.0%; height: 100.0%;"><b>SAN ALBERTO</b><br>Total BRP: 1<br>Retirados: 0</div>`)[0];
+                popup_e93c5dea4e1e264deb303917cbc3757f.setContent(html_dbeb0f30a5ad32c9747869c7551f29ac);
+            
+        
+
+        circle_marker_fb8cbb7d2656ba4804fcba6855d92954.bindPopup(popup_e93c5dea4e1e264deb303917cbc3757f)
+        ;
+
+        
+    
+    
+            circle_marker_fb8cbb7d2656ba4804fcba6855d92954.bindTooltip(
+                `<div>
+                     SAN ALBERTO: BRP 1 | Ret 0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3175da99530729d1ca5547b239f76fc0 = L.circleMarker(
+                [7.879, -72.632],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.390625, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_e774b1f5e971d7c7c74eac369cd41974 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e6adc52105c96051dd701f484bf86348 = $(`<div id="html_e6adc52105c96051dd701f484bf86348" style="width: 100.0%; height: 100.0%;"><b>SAN CAYETANO</b><br>Total BRP: 3<br>Retirados: 2</div>`)[0];
+                popup_e774b1f5e971d7c7c74eac369cd41974.setContent(html_e6adc52105c96051dd701f484bf86348);
+            
+        
+
+        circle_marker_3175da99530729d1ca5547b239f76fc0.bindPopup(popup_e774b1f5e971d7c7c74eac369cd41974)
+        ;
+
+        
+    
+    
+            circle_marker_3175da99530729d1ca5547b239f76fc0.bindTooltip(
+                `<div>
+                     SAN CAYETANO: BRP 3 | Ret 2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_de525aaa066efbe21fe9771a10f18626 = L.circleMarker(
+                [6.555, -73.133],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.260416666666667, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_2d45ea7137e3460e0d7b3922c1909fbd = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_305a96857f216846a70947b08e1890a4 = $(`<div id="html_305a96857f216846a70947b08e1890a4" style="width: 100.0%; height: 100.0%;"><b>SAN GIL</b><br>Total BRP: 2<br>Retirados: 2</div>`)[0];
+                popup_2d45ea7137e3460e0d7b3922c1909fbd.setContent(html_305a96857f216846a70947b08e1890a4);
+            
+        
+
+        circle_marker_de525aaa066efbe21fe9771a10f18626.bindPopup(popup_2d45ea7137e3460e0d7b3922c1909fbd)
+        ;
+
+        
+    
+    
+            circle_marker_de525aaa066efbe21fe9771a10f18626.bindTooltip(
+                `<div>
+                     SAN GIL: BRP 2 | Ret 2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f115bf1cc2193216378a39d00573fc76 = L.circleMarker(
+                [6.883, -73.411],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.260416666666667, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_ce7377ed5a3910ba7c4db69a72328394 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_58670c0cf1d16a0453067bac7bae0ef9 = $(`<div id="html_58670c0cf1d16a0453067bac7bae0ef9" style="width: 100.0%; height: 100.0%;"><b>SAN VICENTE</b><br>Total BRP: 2<br>Retirados: 0</div>`)[0];
+                popup_ce7377ed5a3910ba7c4db69a72328394.setContent(html_58670c0cf1d16a0453067bac7bae0ef9);
+            
+        
+
+        circle_marker_f115bf1cc2193216378a39d00573fc76.bindPopup(popup_ce7377ed5a3910ba7c4db69a72328394)
+        ;
+
+        
+    
+    
+            circle_marker_f115bf1cc2193216378a39d00573fc76.bindTooltip(
+                `<div>
+                     SAN VICENTE: BRP 2 | Ret 0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1836e0a7c406d5793057b3a8f2b414de = L.circleMarker(
+                [11.24, -74.199],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.171875, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_a7d0e632f618aeed6956967b02f95dd1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e23050a2c94087b8ead5e4f164fd3ebc = $(`<div id="html_e23050a2c94087b8ead5e4f164fd3ebc" style="width: 100.0%; height: 100.0%;"><b>SANTA MARTA</b><br>Total BRP: 9<br>Retirados: 2</div>`)[0];
+                popup_a7d0e632f618aeed6956967b02f95dd1.setContent(html_e23050a2c94087b8ead5e4f164fd3ebc);
+            
+        
+
+        circle_marker_1836e0a7c406d5793057b3a8f2b414de.bindPopup(popup_a7d0e632f618aeed6956967b02f95dd1)
+        ;
+
+        
+    
+    
+            circle_marker_1836e0a7c406d5793057b3a8f2b414de.bindTooltip(
+                `<div>
+                     SANTA MARTA: BRP 9 | Ret 2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_37ff1bc34f50643e5a99119fa9916447 = L.circleMarker(
+                [6.953, -71.875],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.130208333333333, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_301c629a9b03c192359b207ae9b81a37 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_eb16ed2c17fbf29e3eaab290c9207ef7 = $(`<div id="html_eb16ed2c17fbf29e3eaab290c9207ef7" style="width: 100.0%; height: 100.0%;"><b>SARAVENA</b><br>Total BRP: 1<br>Retirados: 0</div>`)[0];
+                popup_301c629a9b03c192359b207ae9b81a37.setContent(html_eb16ed2c17fbf29e3eaab290c9207ef7);
+            
+        
+
+        circle_marker_37ff1bc34f50643e5a99119fa9916447.bindPopup(popup_301c629a9b03c192359b207ae9b81a37)
+        ;
+
+        
+    
+    
+            circle_marker_37ff1bc34f50643e5a99119fa9916447.bindTooltip(
+                `<div>
+                     SARAVENA: BRP 1 | Ret 0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2d06c2c1507879e9f51e90c7110643f6 = L.circleMarker(
+                [9.304, -75.397],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.520833333333333, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_eef771f75a13fb33b4b28f0e19cd6c46 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_18db541f692ee61018ba95df44954c50 = $(`<div id="html_18db541f692ee61018ba95df44954c50" style="width: 100.0%; height: 100.0%;"><b>SINCELEJO</b><br>Total BRP: 4<br>Retirados: 2</div>`)[0];
+                popup_eef771f75a13fb33b4b28f0e19cd6c46.setContent(html_18db541f692ee61018ba95df44954c50);
+            
+        
+
+        circle_marker_2d06c2c1507879e9f51e90c7110643f6.bindPopup(popup_eef771f75a13fb33b4b28f0e19cd6c46)
+        ;
+
+        
+    
+    
+            circle_marker_2d06c2c1507879e9f51e90c7110643f6.bindTooltip(
+                `<div>
+                     SINCELEJO: BRP 4 | Ret 2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4dede44749f62372b659f0820ba87678 = L.circleMarker(
+                [4.578, -74.212],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.432291666666666, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_1645f75c5023cca4cd349c6be4ff0d75 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1f50cd8b82cbae1ccf9efd35f03e6029 = $(`<div id="html_1f50cd8b82cbae1ccf9efd35f03e6029" style="width: 100.0%; height: 100.0%;"><b>SOACHA</b><br>Total BRP: 11<br>Retirados: 4</div>`)[0];
+                popup_1645f75c5023cca4cd349c6be4ff0d75.setContent(html_1f50cd8b82cbae1ccf9efd35f03e6029);
+            
+        
+
+        circle_marker_4dede44749f62372b659f0820ba87678.bindPopup(popup_1645f75c5023cca4cd349c6be4ff0d75)
+        ;
+
+        
+    
+    
+            circle_marker_4dede44749f62372b659f0820ba87678.bindTooltip(
+                `<div>
+                     SOACHA: BRP 11 | Ret 4
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7b7968d548bce91209016809db7cc453 = L.circleMarker(
+                [6.471, -73.262],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.911458333333333, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_359633751ef92b13b027cc8bb2f0a6fe = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_765c2f2f42ccabe9e8fe0062863aeecb = $(`<div id="html_765c2f2f42ccabe9e8fe0062863aeecb" style="width: 100.0%; height: 100.0%;"><b>SOCORRO</b><br>Total BRP: 7<br>Retirados: 1</div>`)[0];
+                popup_359633751ef92b13b027cc8bb2f0a6fe.setContent(html_765c2f2f42ccabe9e8fe0062863aeecb);
+            
+        
+
+        circle_marker_7b7968d548bce91209016809db7cc453.bindPopup(popup_359633751ef92b13b027cc8bb2f0a6fe)
+        ;
+
+        
+    
+    
+            circle_marker_7b7968d548bce91209016809db7cc453.bindTooltip(
+                `<div>
+                     SOCORRO: BRP 7 | Ret 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0581202237f6cfaf3fed0076ade55afb = L.circleMarker(
+                [5.714, -72.933],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.130208333333333, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_d7bd3efe746306721ef92e5c104695e1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b9b77c813941617db891d7955840309c = $(`<div id="html_b9b77c813941617db891d7955840309c" style="width: 100.0%; height: 100.0%;"><b>SOGAMOSO</b><br>Total BRP: 1<br>Retirados: 0</div>`)[0];
+                popup_d7bd3efe746306721ef92e5c104695e1.setContent(html_b9b77c813941617db891d7955840309c);
+            
+        
+
+        circle_marker_0581202237f6cfaf3fed0076ade55afb.bindPopup(popup_d7bd3efe746306721ef92e5c104695e1)
+        ;
+
+        
+    
+    
+            circle_marker_0581202237f6cfaf3fed0076ade55afb.bindTooltip(
+                `<div>
+                     SOGAMOSO: BRP 1 | Ret 0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2cdfa383a8acc906eba3c05ccf95099c = L.circleMarker(
+                [10.917, -74.764],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.260416666666667, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_3851425f2a74c0f8c4c04160e1636734 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fbdf79f49ea4ba944cf92b259b89f653 = $(`<div id="html_fbdf79f49ea4ba944cf92b259b89f653" style="width: 100.0%; height: 100.0%;"><b>SOLEDAD</b><br>Total BRP: 2<br>Retirados: 1</div>`)[0];
+                popup_3851425f2a74c0f8c4c04160e1636734.setContent(html_fbdf79f49ea4ba944cf92b259b89f653);
+            
+        
+
+        circle_marker_2cdfa383a8acc906eba3c05ccf95099c.bindPopup(popup_3851425f2a74c0f8c4c04160e1636734)
+        ;
+
+        
+    
+    
+            circle_marker_2cdfa383a8acc906eba3c05ccf95099c.bindTooltip(
+                `<div>
+                     SOLEDAD: BRP 2 | Ret 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5f974ab117c0d45e1f9be6b781a91e57 = L.circleMarker(
+                [4.927, -74.175],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.130208333333333, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_0df43a164def735ea83e92ff3eb97456 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_acf23dac1aef01fb621aadac4d2aad6f = $(`<div id="html_acf23dac1aef01fb621aadac4d2aad6f" style="width: 100.0%; height: 100.0%;"><b>SUBACHOQUE</b><br>Total BRP: 1<br>Retirados: 0</div>`)[0];
+                popup_0df43a164def735ea83e92ff3eb97456.setContent(html_acf23dac1aef01fb621aadac4d2aad6f);
+            
+        
+
+        circle_marker_5f974ab117c0d45e1f9be6b781a91e57.bindPopup(popup_0df43a164def735ea83e92ff3eb97456)
+        ;
+
+        
+    
+    
+            circle_marker_5f974ab117c0d45e1f9be6b781a91e57.bindTooltip(
+                `<div>
+                     SUBACHOQUE: BRP 1 | Ret 0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2fc228dd75a072af94bb50d41377bdbd = L.circleMarker(
+                [6.458, -71.728],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.260416666666667, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_dbe88480708e632bbfed304435fc260a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1bd1f02b67845ce476818b7162bb748c = $(`<div id="html_1bd1f02b67845ce476818b7162bb748c" style="width: 100.0%; height: 100.0%;"><b>TAME</b><br>Total BRP: 2<br>Retirados: 0</div>`)[0];
+                popup_dbe88480708e632bbfed304435fc260a.setContent(html_1bd1f02b67845ce476818b7162bb748c);
+            
+        
+
+        circle_marker_2fc228dd75a072af94bb50d41377bdbd.bindPopup(popup_dbe88480708e632bbfed304435fc260a)
+        ;
+
+        
+    
+    
+            circle_marker_2fc228dd75a072af94bb50d41377bdbd.bindTooltip(
+                `<div>
+                     TAME: BRP 2 | Ret 0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f2acae8e9697551a8f26d942f4c740f5 = L.circleMarker(
+                [4.661, -74.385],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.130208333333333, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_7ccf5d5743cf2411e49c4eadfffabcf6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c8e2970ace4e837b3678025c3e0aed76 = $(`<div id="html_c8e2970ace4e837b3678025c3e0aed76" style="width: 100.0%; height: 100.0%;"><b>TENA</b><br>Total BRP: 1<br>Retirados: 0</div>`)[0];
+                popup_7ccf5d5743cf2411e49c4eadfffabcf6.setContent(html_c8e2970ace4e837b3678025c3e0aed76);
+            
+        
+
+        circle_marker_f2acae8e9697551a8f26d942f4c740f5.bindPopup(popup_7ccf5d5743cf2411e49c4eadfffabcf6)
+        ;
+
+        
+    
+    
+            circle_marker_f2acae8e9697551a8f26d942f4c740f5.bindTooltip(
+                `<div>
+                     TENA: BRP 1 | Ret 0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_73e1b76453c1a7eec291d4393f8b173b = L.circleMarker(
+                [4.872, -74.145],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.390625, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_0b1e095c7aa26f544b500e4bd901a0cf = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7e44ba87f93aa25e3213848cbce8cba1 = $(`<div id="html_7e44ba87f93aa25e3213848cbce8cba1" style="width: 100.0%; height: 100.0%;"><b>TENJO</b><br>Total BRP: 3<br>Retirados: 3</div>`)[0];
+                popup_0b1e095c7aa26f544b500e4bd901a0cf.setContent(html_7e44ba87f93aa25e3213848cbce8cba1);
+            
+        
+
+        circle_marker_73e1b76453c1a7eec291d4393f8b173b.bindPopup(popup_0b1e095c7aa26f544b500e4bd901a0cf)
+        ;
+
+        
+    
+    
+            circle_marker_73e1b76453c1a7eec291d4393f8b173b.bindTooltip(
+                `<div>
+                     TENJO: BRP 3 | Ret 3
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a30f4123dccbf37367e0f9b58080f17f = L.circleMarker(
+                [4.965, -73.911],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.520833333333333, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_6dd27f176709888dd1f77af1c2ab99cb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3aba57d41ba0cc2291c9413ae1bf1fd7 = $(`<div id="html_3aba57d41ba0cc2291c9413ae1bf1fd7" style="width: 100.0%; height: 100.0%;"><b>TOCANCIPA</b><br>Total BRP: 4<br>Retirados: 3</div>`)[0];
+                popup_6dd27f176709888dd1f77af1c2ab99cb.setContent(html_3aba57d41ba0cc2291c9413ae1bf1fd7);
+            
+        
+
+        circle_marker_a30f4123dccbf37367e0f9b58080f17f.bindPopup(popup_6dd27f176709888dd1f77af1c2ab99cb)
+        ;
+
+        
+    
+    
+            circle_marker_a30f4123dccbf37367e0f9b58080f17f.bindTooltip(
+                `<div>
+                     TOCANCIPA: BRP 4 | Ret 3
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c169ec041ca67928e4dc9f4c6a66288a = L.circleMarker(
+                [5.535, -73.367],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.390625, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_2fad0f9c5e9c7bd8836cbd3c840fe6a2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5ad0db1c41c8c4f8ee9261a7f8f0877d = $(`<div id="html_5ad0db1c41c8c4f8ee9261a7f8f0877d" style="width: 100.0%; height: 100.0%;"><b>TUNJA</b><br>Total BRP: 3<br>Retirados: 1</div>`)[0];
+                popup_2fad0f9c5e9c7bd8836cbd3c840fe6a2.setContent(html_5ad0db1c41c8c4f8ee9261a7f8f0877d);
+            
+        
+
+        circle_marker_c169ec041ca67928e4dc9f4c6a66288a.bindPopup(popup_2fad0f9c5e9c7bd8836cbd3c840fe6a2)
+        ;
+
+        
+    
+    
+            circle_marker_c169ec041ca67928e4dc9f4c6a66288a.bindTooltip(
+                `<div>
+                     TUNJA: BRP 3 | Ret 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_70e81872b13d8962cf0ee85a53e6bb07 = L.circleMarker(
+                [10.334, -75.441],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.390625, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_3d5ef90d25ff5a66aa765959430f0d56 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ac7a7899c244791d274cdd543d9a1dd2 = $(`<div id="html_ac7a7899c244791d274cdd543d9a1dd2" style="width: 100.0%; height: 100.0%;"><b>TURBACO</b><br>Total BRP: 3<br>Retirados: 1</div>`)[0];
+                popup_3d5ef90d25ff5a66aa765959430f0d56.setContent(html_ac7a7899c244791d274cdd543d9a1dd2);
+            
+        
+
+        circle_marker_70e81872b13d8962cf0ee85a53e6bb07.bindPopup(popup_3d5ef90d25ff5a66aa765959430f0d56)
+        ;
+
+        
+    
+    
+            circle_marker_70e81872b13d8962cf0ee85a53e6bb07.bindTooltip(
+                `<div>
+                     TURBACO: BRP 3 | Ret 1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c6118acfee3822952fde150d4d4ef55c = L.circleMarker(
+                [10.463, -73.253],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.338541666666666, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_ffd1f44d2f435044dda5de9abafa5d33 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_81171009f73b8b4f255aafa13cf6074c = $(`<div id="html_81171009f73b8b4f255aafa13cf6074c" style="width: 100.0%; height: 100.0%;"><b>VALLEDUPAR</b><br>Total BRP: 41<br>Retirados: 23</div>`)[0];
+                popup_ffd1f44d2f435044dda5de9abafa5d33.setContent(html_81171009f73b8b4f255aafa13cf6074c);
+            
+        
+
+        circle_marker_c6118acfee3822952fde150d4d4ef55c.bindPopup(popup_ffd1f44d2f435044dda5de9abafa5d33)
+        ;
+
+        
+    
+    
+            circle_marker_c6118acfee3822952fde150d4d4ef55c.bindTooltip(
+                `<div>
+                     VALLEDUPAR: BRP 41 | Ret 23
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_13e37e347f07e521cd053f00d31a6acd = L.circleMarker(
+                [7.834, -72.474],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.260416666666667, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_05be59c8ced0f0680a76b9ff292fea2e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_95e8e50ccdc2283fc76a02050cbd1f38 = $(`<div id="html_95e8e50ccdc2283fc76a02050cbd1f38" style="width: 100.0%; height: 100.0%;"><b>VILLA DEL ROSARIO</b><br>Total BRP: 2<br>Retirados: 2</div>`)[0];
+                popup_05be59c8ced0f0680a76b9ff292fea2e.setContent(html_95e8e50ccdc2283fc76a02050cbd1f38);
+            
+        
+
+        circle_marker_13e37e347f07e521cd053f00d31a6acd.bindPopup(popup_05be59c8ced0f0680a76b9ff292fea2e)
+        ;
+
+        
+    
+    
+            circle_marker_13e37e347f07e521cd053f00d31a6acd.bindTooltip(
+                `<div>
+                     VILLA DEL ROSARIO: BRP 2 | Ret 2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c167d50aedd68bae2938ca6ed4e54253 = L.circleMarker(
+                [5.045, -75.514],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.130208333333333, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_2b5a878cfad482a738aa35a92410a2ce = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ca24f3651476de3db17e7781c902497e = $(`<div id="html_ca24f3651476de3db17e7781c902497e" style="width: 100.0%; height: 100.0%;"><b>VILLAMARIA</b><br>Total BRP: 1<br>Retirados: 0</div>`)[0];
+                popup_2b5a878cfad482a738aa35a92410a2ce.setContent(html_ca24f3651476de3db17e7781c902497e);
+            
+        
+
+        circle_marker_c167d50aedd68bae2938ca6ed4e54253.bindPopup(popup_2b5a878cfad482a738aa35a92410a2ce)
+        ;
+
+        
+    
+    
+            circle_marker_c167d50aedd68bae2938ca6ed4e54253.bindTooltip(
+                `<div>
+                     VILLAMARIA: BRP 1 | Ret 0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b6a602c1622bc9869194d2bc81e5003a = L.circleMarker(
+                [4.142, -73.626],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.734375, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_4a653de8e4a1b1486bc626d311944590 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_5e04f7ce46e386f2e3f58529b199c6b5 = $(`<div id="html_5e04f7ce46e386f2e3f58529b199c6b5" style="width: 100.0%; height: 100.0%;"><b>VILLAVICENCIO</b><br>Total BRP: 21<br>Retirados: 9</div>`)[0];
+                popup_4a653de8e4a1b1486bc626d311944590.setContent(html_5e04f7ce46e386f2e3f58529b199c6b5);
+            
+        
+
+        circle_marker_b6a602c1622bc9869194d2bc81e5003a.bindPopup(popup_4a653de8e4a1b1486bc626d311944590)
+        ;
+
+        
+    
+    
+            circle_marker_b6a602c1622bc9869194d2bc81e5003a.bindTooltip(
+                `<div>
+                     VILLAVICENCIO: BRP 21 | Ret 9
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a19220cb9b572958191b3dfb32bd09dc = L.circleMarker(
+                [6.961, -75.417],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.130208333333333, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_b72e44318232565c299971e740d8cece = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d8908723a80064b6c41bc8424f0a186c = $(`<div id="html_d8908723a80064b6c41bc8424f0a186c" style="width: 100.0%; height: 100.0%;"><b>YARUMAL</b><br>Total BRP: 1<br>Retirados: 0</div>`)[0];
+                popup_b72e44318232565c299971e740d8cece.setContent(html_d8908723a80064b6c41bc8424f0a186c);
+            
+        
+
+        circle_marker_a19220cb9b572958191b3dfb32bd09dc.bindPopup(popup_b72e44318232565c299971e740d8cece)
+        ;
+
+        
+    
+    
+            circle_marker_a19220cb9b572958191b3dfb32bd09dc.bindTooltip(
+                `<div>
+                     YARUMAL: BRP 1 | Ret 0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_210756d9db1734ab0ce3f2e68c446233 = L.circleMarker(
+                [5.337, -72.395],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.651041666666667, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_c296346d208c707745e97dcc4504f10a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_24196b543b9211dbd8410bfee3fa80b5 = $(`<div id="html_24196b543b9211dbd8410bfee3fa80b5" style="width: 100.0%; height: 100.0%;"><b>YOPAL</b><br>Total BRP: 5<br>Retirados: 2</div>`)[0];
+                popup_c296346d208c707745e97dcc4504f10a.setContent(html_24196b543b9211dbd8410bfee3fa80b5);
+            
+        
+
+        circle_marker_210756d9db1734ab0ce3f2e68c446233.bindPopup(popup_c296346d208c707745e97dcc4504f10a)
+        ;
+
+        
+    
+    
+            circle_marker_210756d9db1734ab0ce3f2e68c446233.bindTooltip(
+                `<div>
+                     YOPAL: BRP 5 | Ret 2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_bf43a43ac5bafaa51b28f5abddf58d32 = L.circleMarker(
+                [5.023, -74.003],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.520833333333333, "stroke": true, "weight": 3}
+            ).addTo(map_8de0722eeee0d19fc8031882ab8dc45a);
+        
+    
+        var popup_6e851c46e4fa03143be75c1dfa1b2020 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_bbcf683a1026781aa1fbe01266ce3681 = $(`<div id="html_bbcf683a1026781aa1fbe01266ce3681" style="width: 100.0%; height: 100.0%;"><b>ZIPAQUIRA</b><br>Total BRP: 4<br>Retirados: 2</div>`)[0];
+                popup_6e851c46e4fa03143be75c1dfa1b2020.setContent(html_bbcf683a1026781aa1fbe01266ce3681);
+            
+        
+
+        circle_marker_bf43a43ac5bafaa51b28f5abddf58d32.bindPopup(popup_6e851c46e4fa03143be75c1dfa1b2020)
+        ;
+
+        
+    
+    
+            circle_marker_bf43a43ac5bafaa51b28f5abddf58d32.bindTooltip(
+                `<div>
+                     ZIPAQUIRA: BRP 4 | Ret 2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>

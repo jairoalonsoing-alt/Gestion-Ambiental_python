@@ -1,4 +1,4 @@
-# 🌎 Gestión Ambiental con Python
+# Gestión Ambiental con Python
 
 Repositorio de proyectos desarrollados en **Python** orientados a la **Ingeniería Ambiental**, el **análisis de datos espaciales (SIG)** y la **automatización de procesos geoespaciales**.
 
@@ -6,9 +6,9 @@ Este espacio integra herramientas de programación, análisis territorial y visu
 
 ---
 
-## 🚀 Proyecto Destacado
+## Proyectos Destacados
 
-### 🌍 Mapa Interactivo – Análisis de Riesgo Ambiental
+### Mapa Interactivo – Análisis de Riesgo Ambiental
 
 Proyecto de procesamiento geoespacial que integra:
 
@@ -18,8 +18,8 @@ Proyecto de procesamiento geoespacial que integra:
 - Automatización del procesamiento con Python
 - Publicación web mediante **GitHub Pages**
 
-🔗 **Visualizar mapa online:**  
-👉 https://jairoalonsoing-alt.github.io/Gestion-Ambiental_python/
+**Visualizar mapa online:**  
+https://jairoalonsoing-alt.github.io/Gestion-Ambiental_python/
 
 ---
 
@@ -36,9 +36,9 @@ Cada carpeta contiene scripts, datos y productos cartográficos generados durant
 
 ---
 
-## 📊 Líneas de Trabajo
+## Líneas de Trabajo
 
-### 🏞️ Análisis y Zonificación Ambiental de Cuencas
+### Análisis y Zonificación Ambiental de Cuencas
 
 - Delimitación de zonas de **conservación, recuperación y uso controlado**
 - Evaluación de **riesgo hídrico**
@@ -48,7 +48,7 @@ Cada carpeta contiene scripts, datos y productos cartográficos generados durant
 
 ---
 
-### 🌐 Procesamiento Geoespacial
+### Procesamiento Geoespacial
 
 - Manejo de datos espaciales con **GeoPandas**
 - Operaciones espaciales (buffers, overlays, intersecciones)
@@ -57,7 +57,7 @@ Cada carpeta contiene scripts, datos y productos cartográficos generados durant
 
 ---
 
-### ⚙️ Automatización GIS
+### Automatización GIS
 
 - Scripts para optimizar procesos repetitivos
 - Integración Python – QGIS / ArcGIS
@@ -65,7 +65,7 @@ Cada carpeta contiene scripts, datos y productos cartográficos generados durant
 
 ---
 
-## 🛠️ Tecnologías y Librerías Utilizadas
+## Tecnologías y Librerías Utilizadas
 
 - Python
 - Pandas
@@ -79,7 +79,7 @@ Cada carpeta contiene scripts, datos y productos cartográficos generados durant
 
 ---
 
-## 🎯 Enfoque Profesional
+## Enfoque Profesional
 
 Este repositorio hace parte de mi proceso de fortalecimiento profesional en:
 
@@ -91,7 +91,7 @@ Este repositorio hace parte de mi proceso de fortalecimiento profesional en:
 
 ---
 
-## 👨‍💻 Autor
+## Autor
 
 **Jairo Alonso Porras Bernal**  
 Ingeniero Ambiental – Colombia  

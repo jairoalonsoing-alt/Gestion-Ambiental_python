@@ -36,17 +36,16 @@ El repositorio refleja un proceso de aprendizaje progresivo y la aplicación pr�
 ## Estructura del repositorio
 
 Gestion-Ambiental_python/
-│
-├── Sesion1/        # Fundamentos de Python
-├── Sesion2/        # Manipulación y análisis de datos
-├── Sesion4/        # Análisis de información ambiental
-├── Sesion5/        # Procesamiento de datos ambientales
-├── Sesion6/        # Automatización de tareas
-├── Sesion7/        # Análisis espacial y GIS
-├── Sesion8/        # Integración de datos y visualización
-├── Mapas/          # Mapas temáticos y análisis geográfico
-├── README.md
-└── .gitignore
+- Sesion1/        # Fundamentos de Python
+- Sesion2/        # Manipulación y análisis de datos
+- Sesion4/        # Análisis de información ambiental
+- Sesion5/        # Procesamiento de datos ambientales
+- Sesion6/        # Automatización de tareas
+- Sesion7/        # Análisis espacial y GIS
+- Sesion8/        # Integración de datos y visualización
+- Mapas/          # Mapas temáticos y análisis geográfico
+- README.md
+- .gitignore
 ---
 
 ## Enfoque ambiental

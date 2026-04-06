@@ -1,104 +1,70 @@
-# Gestión Ambiental con Python
+# Gestión Ambiental con Python 
 
-Repositorio de proyectos desarrollados en **Python** orientados a la **Ingeniería Ambiental**, el **análisis de datos espaciales (SIG)** y la **automatización de procesos geoespaciales**.
-
-Este espacio integra herramientas de programación, análisis territorial y visualización de información para apoyar la **gestión ambiental**, la **evaluación de riesgos** y la **toma de decisiones basada en datos**.
-
----
-
-## Proyectos Destacados
-
-### Mapa Interactivo – Análisis de Riesgo Ambiental
-
-Proyecto de procesamiento geoespacial que integra:
-
-- Limpieza y estructuración de datos ambientales
-- Integración de coordenadas geográficas desde archivos CSV
-- Visualización interactiva con **Folium**
-- Automatización del procesamiento con Python
-- Publicación web mediante **GitHub Pages**
-
-**Visualizar mapa online:**  
-https://jairoalonsoing-alt.github.io/Gestion-Ambiental_python/
-
----
-
-## 🗂️ Estructura del Repositorio
-
-01_Analisis_Datos_Ambientales/
-02_Procesamiento_Geoespacial/
-03_Visualizacion_Ambiental/
-04_Modelado_Ambiental/
-05_Automatizacion_GIS/
-Mapas/
-
-Cada carpeta contiene scripts, datos y productos cartográficos generados durante el desarrollo de los análisis.
-
----
-
-## Líneas de Trabajo
-
-### Análisis y Zonificación Ambiental de Cuencas
-
-- Delimitación de zonas de **conservación, recuperación y uso controlado**
-- Evaluación de **riesgo hídrico**
-- Análisis de **exposición urbana**
-- Integración de datos oficiales (POMCA) y OpenStreetMap
-- Exportación automática de **Shapefiles, CSV y mapas finales**
-
----
-
-### Procesamiento Geoespacial
-
-- Manejo de datos espaciales con **GeoPandas**
-- Operaciones espaciales (buffers, overlays, intersecciones)
-- Limpieza y transformación de datos geográficos
-- Generación de mapas estáticos e interactivos
-
----
-
-### Automatización GIS
-
-- Scripts para optimizar procesos repetitivos
-- Integración Python – QGIS / ArcGIS
-- Exportación automatizada de productos cartográficos
-
----
-
-## Tecnologías y Librerías Utilizadas
-
-- Python
-- Pandas
-- GeoPandas
-- OSMnx
-- Shapely
-- Matplotlib
-- Folium
-- Contextily
-- QGIS / ArcGIS (integración de resultados)
-
----
-
-## Enfoque Profesional
-
-Este repositorio hace parte de mi proceso de fortalecimiento profesional en:
-
-- Análisis espacial aplicado a la gestión ambiental
-- Modelación territorial
-- Gestión del riesgo ambiental
-- Automatización de procesos SIG
-- Visualización interactiva de información geográfica
-
----
+Repositorio de proyectos y ejercicios en **Python aplicados a la Ingeniería Ambiental**, enfocados en **análisis de datos, automatización y Sistemas de Información Geográfica (GIS)**, con orientación a la **gestión ambiental empresarial y mejora continua (SGA – ISO 14001)**.
 
 ## Autor
-
 **Jairo Alonso Porras Bernal**  
-Ingeniero Ambiental – Colombia  
-
-Intereses profesionales:  
-SIG • Modelación Ambiental • Gestión del Riesgo • Automatización GIS • Análisis Territorial • Ciencia de Datos Ambiental
+Ingeniero Ambiental | GIS | Python aplicado a gestión ambiental  
+Colombia  
 
 ---
 
-> Este repositorio representa mi proceso continuo de aprendizaje y aplicación práctica de herramientas tecnológicas al servicio de la gestión ambiental del territorio.
+## Objetivo del repositorio
+Desarrollar y documentar soluciones prácticas en Python para:
+- Análisis de datos ambientales
+- Automatización de procesos ambientales
+- Visualización y análisis espacial (GIS)
+- Soporte técnico a Sistemas de Gestión Ambiental (SGA)
+
+El repositorio refleja un proceso de aprendizaje progresivo y la aplicación práctica de Python en contextos reales de la ingeniería ambiental.
+
+---
+
+## Tecnologías y librerías utilizadas
+- Python
+- pandas
+- numpy
+- matplotlib / seaborn
+- geopandas
+- folium
+- shapely
+- ArcGIS / arcpy (cuando aplica)
+- Jupyter Notebook
+
+---
+
+## Estructura del repositorio
+
+Gestion-Ambiental_python/
+│
+├── Sesion1/        # Fundamentos de Python
+├── Sesion2/        # Manipulación y análisis de datos
+├── Sesion4/        # Análisis de información ambiental
+├── Sesion5/        # Procesamiento de datos ambientales
+├── Sesion6/        # Automatización de tareas
+├── Sesion7/        # Análisis espacial y GIS
+├── Sesion8/        # Integración de datos y visualización
+├── Mapas/          # Mapas temáticos y análisis geográfico
+├── README.md
+└── .gitignore
+---
+
+## Enfoque ambiental
+Los ejercicios y proyectos están alineados con:
+- Gestión de residuos (PGIRS)
+- Uso eficiente de recursos (agua y energía)
+- Análisis espacial para toma de decisiones
+- Apoyo técnico a Sistemas de Gestión Ambiental (ISO 14001)
+
+---
+
+## Próximos desarrollos
+- Proyecto integral SGA + GIS
+- Automatización de indicadores ambientales
+- Dashboards ambientales
+- Integración con datos abiertos y catastros
+
+---
+
+## Nota
+Este repositorio tiene fines **formativos y profesionales**, y está en constante mejora como parte del desarrollo técnico del autor.

@@ -1,8 +1,8 @@
-# 🌱 Proyecto de Gestión Ambiental con GIS
+# Proyecto de Gestión Ambiental con GIS
 
 Este repositorio contiene análisis espaciales aplicados a la gestión ambiental usando ArcGIS, AutoCAD y Python.
 
-## 🔍 Contenido
+## Contenido
 - Análisis de datos ambientales
 - Procesamiento geoespacial
 - Automatización GIS
@@ -10,16 +10,16 @@ Este repositorio contiene análisis espaciales aplicados a la gestión ambiental
 - Análisis de cuencas
 - Mapas temáticos
 
-## 🗺️ Resultados destacados
+## Resultados destacados
 - Mapa de concentración poblacional en Bogotá
 - Mapa de uso del suelo
 - Análisis de riesgo ambiental
 
-## 🛠️ Herramientas utilizadas
+## Herramientas utilizadas
 - ArcGIS
 - AutoCAD
 - Python (GeoPandas, etc.)
 
-## 👨‍💻 Autor
+## Autor
 Jairo Alonso Porras Bernal
 Ingeniero Ambiental
